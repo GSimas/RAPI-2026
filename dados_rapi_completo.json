@@ -1,0 +1,5118 @@
+[
+ {
+  "tema": "ÁGUA",
+  "subtema": "COBERTURA DE ÁGUA",
+  "id_ces": "1",
+  "id_nova_ordem": null,
+  "id_floripa": "1",
+  "ods": "7.1.1",
+  "orgao_responsavel": "CASAN/FNR",
+  "indicador": "Porcentagem de pessoas com serviço de abastecimento de água potável em relação à população total do município",
+  "faixas_semaforizacao": {
+   "verde": "> 90%–100%",
+   "amarelo": "75%–90%",
+   "vermelho": "< 75%"
+  },
+  "dados_anuais": {
+   "2018": "100%",
+   "2019": "100%",
+   "2020": "100%",
+   "2021": "100%",
+   "2022": "100%",
+   "2023": "100%",
+   "2024": "93%",
+   "2025": "99%"
+  }
+ },
+ {
+  "tema": "ÁGUA",
+  "subtema": "EFICIÊNCIA NO USO DA ÁGUA",
+  "id_ces": "2",
+  "id_nova_ordem": null,
+  "id_floripa": "2",
+  "ods": "7.1.5",
+  "orgao_responsavel": "CASAN/FNR",
+  "indicador": "Quantidade total do consumo de água em litros por dia dividida pelo total da população. Inclui uso não doméstico.",
+  "faixas_semaforizacao": {
+   "verde": "120–200",
+   "amarelo": "80–120 ou 200–250",
+   "vermelho": "< 80 ou > 250"
+  },
+  "dados_anuais": {
+   "2018": "163 l/hab.dia",
+   "2019": "173,5 l/pessoa/dia",
+   "2020": "172,9 l/pessoa/dia",
+   "2021": "163,1 l/pessoa/dia",
+   "2022": "172,6 l/pessoa/dia",
+   "2023": "179,9 l/pessoa/dia",
+   "2024": "178,9 L/pessoa/dia",
+   "2025": "176,84"
+  }
+ },
+ {
+  "tema": "ÁGUA",
+  "subtema": "EFICIÊNCIA NO SERVIÇO DE ABASTECIMENTO DE ÁGUA",
+  "id_ces": "3",
+  "id_nova_ordem": null,
+  "id_floripa": "3",
+  "ods": null,
+  "orgao_responsavel": "CASAN",
+  "indicador": "Média anual de horas/dia em que há o fornecimento contínuo de água.",
+  "faixas_semaforizacao": {
+   "verde": "> 20 h/dia",
+   "amarelo": "12–20 h/dia",
+   "vermelho": "< 12 h/dia"
+  },
+  "dados_anuais": {
+   "2018": "24h/dia",
+   "2019": "24h",
+   "2020": "23,86 horas/dia",
+   "2021": "23,86 horas/dia",
+   "2022": "23,98 horas/dia",
+   "2023": "24,00 horas/dia",
+   "2024": "24,00 horas/dia",
+   "2025": "24"
+  }
+ },
+ {
+  "tema": "ÁGUA",
+  "subtema": "EFICIÊNCIA NO SERVIÇO DE ABASTECIMENTO DE ÁGUA",
+  "id_ces": "4",
+  "id_nova_ordem": null,
+  "id_floripa": "4",
+  "ods": "7.1.4",
+  "orgao_responsavel": "CASAN/FNR",
+  "indicador": "Qualidade da água: Porcentagem do número total de testes conformes em relação ao número total de testes de qualidade de água tratada realizados.",
+  "faixas_semaforizacao": {
+   "verde": "> 97%",
+   "amarelo": "90%–97%",
+   "vermelho": "< 90%"
+  },
+  "dados_anuais": {
+   "2018": "95%",
+   "2019": "98,53%",
+   "2020": "95,19%",
+   "2021": "95,87%",
+   "2022": "97,20%",
+   "2023": "97%",
+   "2024": "96,08%",
+   "2025": "97,20%"
+  }
+ },
+ {
+  "tema": "ÁGUA",
+  "subtema": "EFICIÊNCIA NO SERVIÇO DE ABASTECIMENTO DE ÁGUA",
+  "id_ces": "5",
+  "id_nova_ordem": null,
+  "id_floripa": "5",
+  "ods": "7.1.6",
+  "orgao_responsavel": "CASAN/FNR",
+  "indicador": "Água não contabilizada = Índice de perdas na distribuição de água.",
+  "faixas_semaforizacao": {
+   "verde": "0%–30%",
+   "amarelo": "30%–45%",
+   "vermelho": "> 45%"
+  },
+  "dados_anuais": {
+   "2018": "31%",
+   "2019": "42,41%",
+   "2020": "43,84%",
+   "2021": "43,80%",
+   "2022": "39,30%",
+   "2023": "35,87%",
+   "2024": "38,09%",
+   "2025": "37,29%"
+  }
+ },
+ {
+  "tema": "ÁGUA",
+  "subtema": "EFICIÊNCIA NO SERVIÇO DE ABASTECIMENTO DE ÁGUA",
+  "id_ces": "6",
+  "id_nova_ordem": null,
+  "id_floripa": "6",
+  "ods": null,
+  "orgao_responsavel": "SEMAE/CASAN",
+  "indicador": "Número remanescente de anos de saldo hídrico positivo (volume de água disponível dividido pelo consumo anual real (faturado + perdido).",
+  "faixas_semaforizacao": {
+   "verde": "> 10",
+   "amarelo": "5–10",
+   "vermelho": "< 5"
+  },
+  "dados_anuais": {
+   "2018": "6 anos",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "VOLUME PRODUZIDO (m³) 24.396.423 VOLUME IMPORTADO DE SAAs CASAN (m³) 36.204.566 VOLUME OPERACIONAL (m³) 805.172 VOLUME USO EMERGENCIAL (m³) 2.189 VOLUME USO SOCIAL (m³) 1.127.116 VOLUME DISPONIBILIZADO (m³) 60.600.989 VOLUME DE PERDAS (m³) 22.595.533 VOLUME MACROMEDIDO DISTRIBUÍDO (m³) 53.574.227 VOLUME MICROMEDIDO (m³) 29.708.488 VOLUME CRITICADO (m³) 6.362.491 VOLUME UTILIZADO (m³) 36.070.979 VOLUME FATURAMENTO TOTAL (m³) 36.043.860 PERDAS DE FATURAMENTO (m³) 24.557.129"
+  }
+ },
+ {
+  "tema": "SANEAMENTO E DRENAGEM",
+  "subtema": "COBERTURA DE SANEAMENTO",
+  "id_ces": "7",
+  "id_nova_ordem": null,
+  "id_floripa": "7",
+  "ods": null,
+  "orgao_responsavel": "CASAN",
+  "indicador": "Porcentagem de moradias com ligação ao sistema de esgoto (área atendida pela Casan)",
+  "faixas_semaforizacao": {
+   "verde": "> 75%",
+   "amarelo": "75%–60%",
+   "vermelho": "< 60%"
+  },
+  "dados_anuais": {
+   "2018": "64%",
+   "2019": "66,90%",
+   "2020": "67,42%",
+   "2021": "68,89%",
+   "2022": "68,39%",
+   "2023": "66,67%",
+   "2024": "64,81%",
+   "2025": "58,71%"
+  }
+ },
+ {
+  "tema": "SANEAMENTO E DRENAGEM",
+  "subtema": "TRATAMENTO DE ÁGUAS RESIDUÁRIAS",
+  "id_ces": "8",
+  "id_nova_ordem": null,
+  "id_floripa": "8",
+  "ods": null,
+  "orgao_responsavel": "CASAN",
+  "indicador": "Porcentagem de águas residuais ou efluente (águas de esgoto) tratadas: total de m³ de águas residuais que entram anualmente nas estações de tratamento dividido pelo total de m³ de água faturadas.",
+  "faixas_semaforizacao": {
+   "verde": "> 60%",
+   "amarelo": "40%–60%",
+   "vermelho": "< 40%"
+  },
+  "dados_anuais": {
+   "2018": "64%",
+   "2019": "58,58%",
+   "2020": "55,56%",
+   "2021": "65,07%",
+   "2022": "62,69%",
+   "2023": "60,14%",
+   "2024": "63,15%",
+   "2025": "66,82%"
+  }
+ },
+ {
+  "tema": "SANEAMENTO E DRENAGEM",
+  "subtema": "EFETIVIDADE DA DRENAGEM",
+  "id_ces": "9",
+  "id_nova_ordem": null,
+  "id_floripa": "9",
+  "ods": null,
+  "orgao_responsavel": "SMSOP",
+  "indicador": "Porcentagem anual de moradias afetadas por inundações intensas decorrentes de transbordamentos dos sistemas de drenagem e esgoto e de inundações causadas por rios e marés.",
+  "faixas_semaforizacao": {
+   "verde": "< 0,5%",
+   "amarelo": "0,5–3",
+   "vermelho": "> 3%"
+  },
+  "dados_anuais": {
+   "2018": "0,5% (inundações são referentes aos rios e estes são pouco frequentes em Florianópolis)",
+   "2019": "0,50%",
+   "2020": "7,00%",
+   "2021": "9,00%",
+   "2022": "11,00%",
+   "2023": "13%",
+   "2024": "15%",
+   "2025": "15%"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "COBERTURA DE COLETA DE RESÍDUOS SÓLIDOS",
+  "id_ces": "10",
+  "id_nova_ordem": null,
+  "id_floripa": "10",
+  "ods": null,
+  "orgao_responsavel": "COMCAP",
+  "indicador": "Porcentagem das moradias com coleta regular de resíduos sólidos.",
+  "faixas_semaforizacao": {
+   "verde": "90%–100%",
+   "amarelo": "80%–90%",
+   "vermelho": "< 80%"
+  },
+  "dados_anuais": {
+   "2018": "100%",
+   "2019": "100%",
+   "2020": "100%",
+   "2021": "100%",
+   "2022": "100%",
+   "2023": "100%",
+   "2024": "100%",
+   "2025": "100%"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "VOLUME DE RESÍDUOS SÓLIDOS",
+  "id_ces": "11",
+  "id_nova_ordem": "L5",
+  "id_floripa": "11",
+  "ods": null,
+  "orgao_responsavel": "COMCAP",
+  "indicador": "Toneladas totais de resíduos sólidos recolhidos (lixo convencional e coleta seletiva)",
+  "faixas_semaforizacao": {
+   "verde": "Acompanha semaforização do indicador 10",
+   "amarelo": "Acompanha semaforização do indicador 10",
+   "vermelho": "Acompanha semaforização do indicador 10"
+  },
+  "dados_anuais": {
+   "2018": "209.610 ton",
+   "2019": "212.303 ton",
+   "2020": "205.291 ton",
+   "2021": "198.945,33",
+   "2022": "227.444,05",
+   "2023": "253.577,01",
+   "2024": "259.313,04",
+   "2025": "285.199,32"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "VOLUME DE RESÍDUOS SÓLIDOS",
+  "id_ces": "12",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "12",
+  "ods": null,
+  "orgao_responsavel": "COMCAP",
+  "indicador": "Quantidade (kg) de resíduos sólidos coletados por habitante, por dia (população projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "≤ 1,0",
+   "amarelo": "1,01 - 1,5",
+   "vermelho": ">1,5"
+  },
+  "dados_anuais": {
+   "2018": "2,32",
+   "2019": "1,16",
+   "2020": "1,1",
+   "2021": "1,05",
+   "2022": "1,09",
+   "2023": "1,28",
+   "2024": "1,14",
+   "2025": "1,33"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "DISPOSIÇÃO FINAL DOS RESÍDUOS SÓLIDOS",
+  "id_ces": "13",
+  "id_nova_ordem": null,
+  "id_floripa": "13",
+  "ods": "7.3.5",
+  "orgao_responsavel": "COMCAP/FNR",
+  "indicador": "Porcentagem de resíduos sólidos municipais depositados em aterros sanitários",
+  "faixas_semaforizacao": {
+   "verde": "<35%",
+   "amarelo": "36%- 50%",
+   "vermelho": "> 50%"
+  },
+  "dados_anuais": {
+   "2018": "94,01%",
+   "2019": "92,85%",
+   "2020": "ND",
+   "2021": "93,27%",
+   "2022": "88,82%",
+   "2023": "86,38%",
+   "2024": "86,81%",
+   "2025": "84,5"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "DISPOSIÇÃO FINAL DOS RESÍDUOS SÓLIDOS",
+  "id_ces": "14",
+  "id_nova_ordem": null,
+  "id_floripa": "14",
+  "ods": null,
+  "orgao_responsavel": "COMCAP",
+  "indicador": "Vida remanescente útil das instalações de aterro sanitário",
+  "faixas_semaforizacao": {
+   "verde": "> 8",
+   "amarelo": "5–8",
+   "vermelho": "< 5"
+  },
+  "dados_anuais": {
+   "2018": "25 anos",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "16 anos",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "24 anos",
+   "2025": "23 anos"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "TRATAMENTO DOS RESÍDUOS SÓLIDOS",
+  "id_ces": "15",
+  "id_nova_ordem": null,
+  "id_floripa": "15",
+  "ods": null,
+  "orgao_responsavel": "COMCAP",
+  "indicador": "Porcentagem de resíduos sólidos municipais compostados pela Prefeitura",
+  "faixas_semaforizacao": {
+   "verde": "> 20%",
+   "amarelo": "5%–20%",
+   "vermelho": "< 5%"
+  },
+  "dados_anuais": {
+   "2018": "0,29%",
+   "2019": "1,93%",
+   "2020": "2,30%",
+   "2021": "0,91%",
+   "2022": "3,58%",
+   "2023": "4,56%",
+   "2024": "12,93",
+   "2025": "14,04"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "TRATAMENTO DOS RESÍDUOS SÓLIDOS",
+  "id_ces": "16",
+  "id_nova_ordem": null,
+  "id_floripa": "16",
+  "ods": "7.3.4",
+  "orgao_responsavel": "COMCAP/FNR",
+  "indicador": "Porcentagem de resíduos sólidos separados e classificados para reciclagem",
+  "faixas_semaforizacao": {
+   "verde": "> 25%",
+   "amarelo": "15%–25%",
+   "vermelho": "< 15%"
+  },
+  "dados_anuais": {
+   "2018": "5,99%",
+   "2019": "5,22%",
+   "2020": "5,90%",
+   "2021": "3,76%",
+   "2022": "7,60%",
+   "2023": "9,05%",
+   "2024": "10,73",
+   "2025": "12"
+  }
+ },
+ {
+  "tema": "GESTÃO DE RESÍDUOS SÓLIDOS",
+  "subtema": "TRATAMENTO DOS RESÍDUOS SÓLIDOS",
+  "id_ces": "17",
+  "id_nova_ordem": null,
+  "id_floripa": "17",
+  "ods": "7.3.6",
+  "orgao_responsavel": "COMCAP/FNR",
+  "indicador": "Porcentagem de resíduos sólidos tratados em usinas de geração de energia a partir de resíduos em relação ao total de resíduos sólidos produzidos.",
+  "faixas_semaforizacao": {
+   "verde": "> 20 %",
+   "amarelo": "10%- 19%",
+   "vermelho": "< 10%"
+  },
+  "dados_anuais": {
+   "2018": "0%",
+   "2019": "0%",
+   "2020": "0%",
+   "2021": "0%",
+   "2022": "0%",
+   "2023": "0%",
+   "2024": "0%",
+   "2025": "0%"
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "COBERTURA ENERGÉTICA",
+  "id_ces": "18",
+  "id_nova_ordem": null,
+  "id_floripa": "18",
+  "ods": null,
+  "orgao_responsavel": "CELESC",
+  "indicador": "Porcentagem de domicílios(residenciais) com ligação autorizada à energia elétrica",
+  "faixas_semaforizacao": {
+   "verde": "90%–100%",
+   "amarelo": "70%–90%",
+   "vermelho": "< 70%"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "ND",
+   "2020": "224.611 (UCR)",
+   "2021": "264.673 (UCR)",
+   "2022": "271.230 (UCR)",
+   "2023": "276.889 UCR - 99,93%",
+   "2024": "98,08%",
+   "2025": "89,64% = 250.825 UCR (Total de unidades residenciais de |Floripa 279.800)"
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "COBERTURA ENERGÉTICA",
+  "id_ces": "19",
+  "id_nova_ordem": null,
+  "id_floripa": "19",
+  "ods": "7.4.6",
+  "orgao_responsavel": "SC GÁS /FNR",
+  "indicador": "Número de conexões de serviço de distribuição de gás - residencial (por 100 mil habitantes)",
+  "faixas_semaforizacao": {
+   "verde": "> 54.000",
+   "amarelo": "> 33.000 = < 54.000",
+   "vermelho": "< 33.000"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "2.585 unidades residenciais = 508,03/100 mil",
+   "2021": "2.612 unidades residenciais = 516,2/100 mil",
+   "2022": "3.506 unidades residenciais = 652,87/100 mil",
+   "2023": "3.740 unidades residenciais = 649,31/100 mil",
+   "2024": "4.588 unidades residenciais = 796,53/100 mil",
+   "2025": "5.410unidades residenciais = 920,87/100 mil"
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "COBERTURA ENERGÉTICA",
+  "id_ces": "20",
+  "id_nova_ordem": null,
+  "id_floripa": "20",
+  "ods": "7.4.7",
+  "orgao_responsavel": "CELESC /FNR",
+  "indicador": "Média de interrupção do fornecimento de energia elétrica por domicílio/ano, expresso em h/domicílio/ano",
+  "faixas_semaforizacao": {
+   "verde": "< 7h",
+   "amarelo": "7–10h",
+   "vermelho": "> 10h"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "5,42 vezes (ano)",
+   "2020": "4,46 (vezes ano)",
+   "2021": "7,24",
+   "2022": "5,77",
+   "2023": "5,45",
+   "2024": "5,61",
+   "2025": "5,55 h/domicílio/ano."
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "EFICIÊNCIA ENERGÉTICA",
+  "id_ces": "21",
+  "id_nova_ordem": null,
+  "id_floripa": "21",
+  "ods": null,
+  "orgao_responsavel": "CELESC",
+  "indicador": "Consumo anual de eletricidade por cliente residencial em Kw/h",
+  "faixas_semaforizacao": {
+   "verde": "1500–3500 kWh/por domicílio/an o",
+   "amarelo": "900–1500 kWh/por domicílio/an o 3500–5000 kWh/por domicílio/an o",
+   "vermelho": "< 900 kWh/por domicílio/an o > 5000 kWh/por domicílio/an o"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "2.536,56",
+   "2020": "2.885,36",
+   "2021": "2.877,59",
+   "2022": "2.975,27",
+   "2023": "3.071,78",
+   "2024": "3.286,75",
+   "2025": "3.082,44 khw anual por UC"
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "EFICIÊNCIA ENERGÉTICA",
+  "id_ces": "22",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "22",
+  "ods": null,
+  "orgao_responsavel": "COSIP",
+  "indicador": "Porcentagem da iluminação pública que utiliza a tecnologia LED",
+  "faixas_semaforizacao": {
+   "verde": "> 50%",
+   "amarelo": "50% - 30%",
+   "vermelho": "< 30%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "13,20%",
+   "2020": "15,80%",
+   "2021": "17,50%",
+   "2022": "17,5% 10.913 Luminárias",
+   "2023": "45% 25.927 luminárias",
+   "2024": "77% - 44.660 luminárias",
+   "2025": "78% - 45.488 luminárias"
+  }
+ },
+ {
+  "tema": "ENERGIA",
+  "subtema": "ENERGIA ALTERNATIVA E RENOVÁVEL",
+  "id_ces": "23",
+  "id_nova_ordem": null,
+  "id_floripa": "23",
+  "ods": "7.4.4",
+  "orgao_responsavel": "CELESC /FNR",
+  "indicador": "Energia proveniente de fontes renováveis (porcentagem)",
+  "faixas_semaforizacao": {
+   "verde": "> 50%",
+   "amarelo": "20%–50%",
+   "vermelho": "< 20%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "99,37",
+   "2021": "73,30",
+   "2022": "98,05",
+   "2023": "98,05",
+   "2024": "96,12",
+   "2025": "93,44%"
+  }
+ },
+ {
+  "tema": "QUALIDADE DO AR",
+  "subtema": "QUALIDADE DO AR E CONCENTRAÇÃO DE CONTAMINANTES",
+  "id_ces": "24",
+  "id_nova_ordem": null,
+  "id_floripa": "24",
+  "ods": null,
+  "orgao_responsavel": "FLORAM",
+  "indicador": "Índice de qualidade do ar ***",
+  "faixas_semaforizacao": {
+   "verde": "0–50",
+   "amarelo": "51–100",
+   "vermelho": "> 100"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "20",
+   "2023": "20",
+   "2024": "20",
+   "2025": "20"
+  }
+ },
+ {
+  "tema": "QUALIDADE DO AR",
+  "subtema": "QUALIDADE DO AR E CONCENTRAÇÃO DE CONTAMINANTES",
+  "id_ces": "25",
+  "id_nova_ordem": null,
+  "id_floripa": "25",
+  "ods": "6.4.2",
+  "orgao_responsavel": "FLORAM/FNR",
+  "indicador": "Concentração de Material Particulado (MP) 10",
+  "faixas_semaforizacao": {
+   "verde": "< 50 MP 10 em média em 24 horas em μg/m3",
+   "amarelo": "50–150 MP 10 em média em 24 horas em μg/m3",
+   "vermelho": "> 150 MP 10 em média em 24 horas em μg/m3"
+  },
+  "dados_anuais": {
+   "2018": "Não é levantado pelo município",
+   "2019": "Não informado",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MITIGAÇÃO DA MUDANÇA CLIMÁTICA",
+  "subtema": "EMISSÕES TOTAIS DE GEE",
+  "id_ces": "26",
+  "id_nova_ordem": null,
+  "id_floripa": "26",
+  "ods": "6.3.3",
+  "orgao_responsavel": "FLORAM/FNR",
+  "indicador": "Emissões de GEE -Toneladas per capita (População projetada do IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "< 5",
+   "amarelo": "5–10",
+   "vermelho": "> 10"
+  },
+  "dados_anuais": {
+   "2018": "Não é levantado pelo município",
+   "2019": "2,17",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "1,8 Ton CO2e/capita",
+   "2023": "2,1 Ton CO2e/capita",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "RUÍDO",
+  "subtema": "CONTROLE DE RUÍDOS",
+  "id_ces": "27",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "27",
+  "ods": null,
+  "orgao_responsavel": "FLORAM",
+  "indicador": "Média anual (em decibéis) de ruído nos 5 principais pontos críticos da cidade",
+  "faixas_semaforizacao": {
+   "verde": "< 70 decibéis",
+   "amarelo": "70 - 80 decibéis",
+   "vermelho": "> 80 decibéis"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "Trata-se de uma métrica que o Departamento não acompanha. A métrica que podemos disponbilizar são os bairros com maior percentual de denúncias: Centro 22,8%; Canasvieiras 7,1%, Ingleses 6,8%, Córrego Grande 4,4%, Capoeiras 4,4%, Estreito 3,7%, Saco dos limões 3,7%, do total de 353 denúncias recebidas no Departamento no ano de 2019.",
+   "2020": "Trata-se de uma métrica que o Departamento ainda não consegue acompanhar. A métrica possível é por bairros com maior percentual de denúncias do total de 278 denúncias recebidas no Departamento no ano de 2020: Centro - 24,90%, Campeche - 9,64%, Coqueiros - 9,04%, Canasvieiras - 7,83%, Estreito - 7,23%, Ingleses - 6,63%, Itacorubi - 5,63%, Corrego grande - 5,42%, Morro as pedras - 4,82%, Trndade - 4,22%, Abraão - 3,61%, Saco, Grande - 3,01%, Jardim Atlantico - 3,01% , Rio Tavares - 3,01%, Outros - 2%",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "VULNERABILIDADE FRENTE A DESASTRES NATURAIS",
+  "subtema": "CAPACIDADE DE ADAPTAÇÃO À MUDANÇA CLIMÁTICA E A EVENTOS NATURAIS EXTREMOS",
+  "id_ces": "28",
+  "id_nova_ordem": null,
+  "id_floripa": "28",
+  "ods": null,
+  "orgao_responsavel": "SMSOP/Defesa Civil",
+  "indicador": "Mapas de risco: porcentagem das áreas sujeitas a riscos decorrentes de deslizamentos, inundações costeiras e fluviais, mapeadas na escala 1:10.000, com grau de risco alto, médio ou baixo risco.",
+  "faixas_semaforizacao": {
+   "verde": "acima de 90%",
+   "amarelo": "de 60 a 89,99%",
+   "vermelho": "abaixo de 60%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "100%",
+   "2020": "100%",
+   "2021": "100%",
+   "2022": "100%",
+   "2023": "100%",
+   "2024": "90%",
+   "2025": "95%"
+  }
+ },
+ {
+  "tema": "VULNERABILIDADE FRENTE A DESASTRES NATURAIS",
+  "subtema": "CAPACIDADE DE ADAPTAÇÃO À MUDANÇA CLIMÁTICA E A EVENTOS NATURAIS EXTREMOS",
+  "id_ces": "29",
+  "id_nova_ordem": null,
+  "id_floripa": "29",
+  "ods": null,
+  "orgao_responsavel": "SMSOP",
+  "indicador": "Porcentagem das áreas de risco e vulnerabilidades da cidade (áreas de risco de deslizamento, de inundação costeira e pluvial, de vulnerabilidade social, de interrupções das pontes, de secas com comprometimento de abastecimento de água, apagões e de congestionamento viário extremo) que possuem planos de contingência adequados e atualizados.",
+  "faixas_semaforizacao": {
+   "verde": "acima de 90%",
+   "amarelo": "de 60 a 89,99%",
+   "vermelho": "abaixo de 60%"
+  },
+  "dados_anuais": {
+   "2018": "Plano de contingência se encontra atualizado e testado em 2017, 2018, 2019. Atualização relacionada as Pontes Colombo Salles e Pedro Ivo é parte suplementar.",
+   "2019": "100%",
+   "2020": "100%",
+   "2021": "100%",
+   "2022": "100%",
+   "2023": "100%",
+   "2024": "100%",
+   "2025": "100%"
+  }
+ },
+ {
+  "tema": "VULNERABILIDADE FRENTE A DESASTRES NATURAIS",
+  "subtema": "CAPACIDADE DE ADAPTAÇÃO À MUDANÇA CLIMÁTICA E A EVENTOS NATURAIS EXTREMOS",
+  "id_ces": "30",
+  "id_nova_ordem": null,
+  "id_floripa": "30",
+  "ods": null,
+  "orgao_responsavel": "SMSOP",
+  "indicador": "Porcentagem dos planos de contingência de riscos que possui alerta precoce",
+  "faixas_semaforizacao": {
+   "verde": "acima de 90%",
+   "amarelo": "de 60 a 89,99%",
+   "vermelho": "abaixo de 60%"
+  },
+  "dados_anuais": {
+   "2018": "Defesa Civil é a responsável pelo monitoramento e emissão de alertas, por meio de SMS para a população e informações diretas aos coordenadores municipais que disseminam a informação e disparam os planos de defesa.",
+   "2019": "100%",
+   "2020": "100%",
+   "2021": "100%",
+   "2022": "100%",
+   "2023": "100%",
+   "2024": "100%",
+   "2025": "100%"
+  }
+ },
+ {
+  "tema": "VULNERABILIDADE FRENTE A DESASTRES NATURAIS",
+  "subtema": "CAPACIDADE DE ADAPTAÇÃO À MUDANÇA CLIMÁTICA E A EVENTOS NATURAIS EXTREMOS",
+  "id_ces": "31",
+  "id_nova_ordem": null,
+  "id_floripa": "31",
+  "ods": null,
+  "orgao_responsavel": "SMSOP",
+  "indicador": "Porcentagem da Lei Orçamentária Anual (LOA) planejados para mitigação dos riscos de desastres naturais e mudanças climáticas",
+  "faixas_semaforizacao": {
+   "verde": "acima de 0,5%",
+   "amarelo": "0,5 a 0,3%",
+   "vermelho": "abaixo de 0,3%"
+  },
+  "dados_anuais": {
+   "2018": "Existem recursos financeiros disponíveis para atender emergências, redução de vulnerabilidades e sistemas de transferência de riscos",
+   "2019": "0,42% (Lei 10.672-2019, total do orçamento R$ 2.357.582.046,0 0)",
+   "2020": "0,076% LOA 2021",
+   "2021": "0,100% LOA 2022 (Lei 10.832/2021)",
+   "2022": "0,125% LOA 2022 Lei 10.832/2021",
+   "2023": "0,120% LOA 2023 (Lei 10.945/2022",
+   "2024": "0,07 LOA (Lei 11.344/2024)",
+   "2025": "0,058% (Lei 11.344/2024)"
+  }
+ },
+ {
+  "tema": "VULNERABILIDADE FRENTE A DESASTRES NATURAIS",
+  "subtema": "SENSIBILIDADE A DESASTRES NATURAIS",
+  "id_ces": "32",
+  "id_nova_ordem": null,
+  "id_floripa": "32",
+  "ods": "6.5.2",
+  "orgao_responsavel": "SMSOP/Defesa Civil/FRN",
+  "indicador": "Número de edificações em áreas de risco. (R3 + R4)",
+  "faixas_semaforizacao": {
+   "verde": "redução superior a 20% da média da base histórica desse indicador (4 primeiros anos = 3.173)",
+   "amarelo": "estabilidade ou redução até 20% da média",
+   "vermelho": "aumento do número de edificações"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "1080 unidades",
+   "2023": "1593 unidades",
+   "2024": "2100 unidades",
+   "2025": "2544(R3eR4)"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "DENSIDADE",
+  "id_ces": "33",
+  "id_nova_ordem": null,
+  "id_floripa": "33",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Porcentagem de crescimento anual da quilometragem da malha urbana",
+  "faixas_semaforizacao": {
+   "verde": "< 3%",
+   "amarelo": "3%–5%",
+   "vermelho": "> 5%"
+  },
+  "dados_anuais": {
+   "2018": "0,84%",
+   "2019": "0,56%",
+   "2020": "2,43%",
+   "2021": "1,86%",
+   "2022": "0,84%",
+   "2023": "ND",
+   "2024": "1,41%",
+   "2025": "0,89%"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "DENSIDADE",
+  "id_ces": "34",
+  "id_nova_ordem": null,
+  "id_floripa": "34",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Quantidade de população por km² de área urbanizada (exclui-se as áreas de agricultura e açudes de mais de 5 km)",
+  "faixas_semaforizacao": {
+   "verde": "7.000 - 20.000",
+   "amarelo": "4.000–7.000 ; 20.000–25.0 00",
+   "vermelho": "< 4.000; > 25.000"
+  },
+  "dados_anuais": {
+   "2018": "4.788,24 hab/km",
+   "2019": "De 4.977,24 hab/km² para 5.017,22% hab/km²",
+   "2020": "De 5.055,26 hab/km² para 4.975,08 hab/km2²",
+   "2021": "4.958,28 hab/km²",
+   "2022": "5.113,88 hab/km²",
+   "2023": "ND",
+   "2024": "4959,95 hab/km2",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "DENSIDADE",
+  "id_ces": "35",
+  "id_nova_ordem": "L8",
+  "id_floripa": "35",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Porcentagem de crescimento demográfico",
+  "faixas_semaforizacao": {
+   "verde": "< 1%",
+   "amarelo": "1% - 1,5%",
+   "vermelho": "> 1,5%"
+  },
+  "dados_anuais": {
+   "2018": "1,47%",
+   "2019": "1,62%",
+   "2020": "1,57%",
+   "2021": "1,51%",
+   "2022": "4,01%",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "1,9% entre 2024 e 2025"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "DENSIDADE",
+  "id_ces": "37",
+  "id_nova_ordem": null,
+  "id_floripa": "36",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Déficit de moradias quantitativo (número de famílias em deficit habitacional pelo total geral de unidades habitacionais do município) ***",
+  "faixas_semaforizacao": {
+   "verde": "< 10%",
+   "amarelo": "10%–20%",
+   "vermelho": "> 20%"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "Déficit habitacional quantitativo é de 7.872 unidade a necessidade de reassentamentos é de 1.666 habitações",
+   "2020": "ND",
+   "2021": "Estimativa do déficit habitacional quantitativo em ZEIS: 7.842",
+   "2022": "Déficit quantitativo 21.705 famílias = 7,56% (Total 41.804 famílias do CadÚnico estão enquadradas nos critérios definidos)",
+   "2023": "Déficit quantitativo 21.705 famílias = 7,56% (Total 41.804 famílias do CadÚnico estão enquadradas nos critérios",
+   "2024": "ND",
+   "2025": "Déficit quantitativo 5.446 famílias = 1,91% considerando total de 284.149 moradias permanentes segundo o censo 2022 (Total 53.888 famílias cadasdtradas no CadÚnico. * Conforme o cadastro habitacional On-line do município disponível à população a partir de março de 2024."
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "ÁREAS VERDES E DE RECREAÇÃO",
+  "id_ces": "38",
+  "id_nova_ordem": null,
+  "id_floripa": "37",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Quantidade de hectares de áreas verdes permanentes de lazer (de acordo com o Plano Diretor) para cada 100.000 habitantes (população projetada IBGE) ***",
+  "faixas_semaforizacao": {
+   "verde": "> 50",
+   "amarelo": "20–50",
+   "vermelho": "< 20"
+  },
+  "dados_anuais": {
+   "2018": "6.123,36 ha",
+   "2019": "6.088,92 hectares/100,00 0hab",
+   "2020": "6.088,77 hectares / 100.000 habitantes",
+   "2021": "5.565,61 hectares/100.00 0 habitantes",
+   "2022": "5.438,05 hectares/100.000 habitantes",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "ÁREAS VERDES E DE RECREAÇÃO",
+  "id_ces": "39",
+  "id_nova_ordem": null,
+  "id_floripa": "38",
+  "ods": "1.5.3",
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Espaços livres de lazer e recreação de uso público excluídas áreas de estacionamento (m² per capita)",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "2.62 m²/hab",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "ÁREAS VERDES E DE RECREAÇÃO",
+  "id_ces": "40",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "39",
+  "ods": null,
+  "orgao_responsavel": "FLORAM/DIAUC/DE PUC",
+  "indicador": "Porcentagem de unidades de conservação municipais (UCs) que possuem conflitos de uso ou uso irregular.",
+  "faixas_semaforizacao": {
+   "verde": "< 0,5%",
+   "amarelo": "0,6% - 2%",
+   "vermelho": "> 2 %"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "0,42%"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "ÁREAS VERDES E DE RECREAÇÃO",
+  "id_ces": "41",
+  "id_nova_ordem": "L10",
+  "id_floripa": "40",
+  "ods": "6.1.1",
+  "orgao_responsavel": "FLORAM",
+  "indicador": "Áreas naturais protegidas: porcentagem de Unidades de Conservação (UC) com plano de manejo.",
+  "faixas_semaforizacao": {
+   "verde": "acima de 90%",
+   "amarelo": "de 60 a 89,99%",
+   "vermelho": "abaixo de 60%"
+  },
+  "dados_anuais": {
+   "2018": "12.107,0 ha",
+   "2019": "De 27,95% (considerando todas as UC) 0,30% (considerando somente UC com plano de manejo) para 27,15% (total UC) 2,79% (com plano de manejo)",
+   "2020": "27,15% (total UC) 6,42% (com plano Manejo)",
+   "2021": "10% (10 UC)",
+   "2022": "10% (10 UC)",
+   "2023": "10% (10 UC)",
+   "2024": "10% (10 UC)",
+   "2025": "8% (11 UC)"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "ÁREAS VERDES E DE RECREAÇÃO",
+  "id_ces": "42",
+  "id_nova_ordem": null,
+  "id_floripa": "41",
+  "ods": "6.1.2",
+  "orgao_responsavel": "FLORAM/DIAUC/DE PUC",
+  "indicador": "Porcentagem da área total terrestre do município designada para proteção ambiental por meio de legislação federal, estadual ou municipal.(***)",
+  "faixas_semaforizacao": {
+   "verde": "50% - 60%",
+   "amarelo": "49% - 30% ou > 61% - 70%",
+   "vermelho": "< 30 ou > 70%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "59,60%",
+   "2023": "59,6%(2022)",
+   "2024": "59,6%(2022)",
+   "2025": "58,54%"
+  }
+ },
+ {
+  "tema": "USO DO SOLO / ORDENAMENTO TERRITORIAL",
+  "subtema": "PLANEJAMENTO DO USO DO SOLO",
+  "id_ces": "43",
+  "id_nova_ordem": "L4",
+  "id_floripa": "42",
+  "ods": "1.9.1",
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Porcentagem de área parcelada irregularmente sobre área urbanizável. (Floripa em Números = Núcelos Urbanos informais)",
+  "faixas_semaforizacao": {
+   "verde": "< 10%",
+   "amarelo": "10% - 25%",
+   "vermelho": "> 25%"
+  },
+  "dados_anuais": {
+   "2018": "1,48% ??",
+   "2019": "36% de mancha urbana com indicativo de irregularidades urbanísticas e fundiárias no Município.",
+   "2020": "ND",
+   "2021": "Total 36% Por Distrito: Barra da Lagoa: 50,58% Cachoeira do Bom Jesus: 48,07% Campeche: 71,80% Canasvieiras: 16,58% Ingleses do Rio Vermelho: 66,35% Lagoa da Conceição: 38,39% Pântano do Sul: 42,98% Ratones: 34,09% Ribeirão da Ilha: 35,98% Santo Antônio de Lisboa: 16,26% São João do Rio Vermelho: 81,84% Sede: 17,49%",
+   "2022": "39,81%",
+   "2023": "37,89 %(base 2019, consulta 02/10/24)",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "POBREZA",
+  "id_ces": "44",
+  "id_nova_ordem": null,
+  "id_floripa": "43",
+  "ods": "5.2.5",
+  "orgao_responsavel": "SEMAS/FNR",
+  "indicador": "População vivendo abaixo da linha nacional de pobreza (porcentagem) (***)",
+  "faixas_semaforizacao": {
+   "verde": "< 11,5%",
+   "amarelo": "11,5% - 23,1%",
+   "vermelho": "> 23,1%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "6,40%",
+   "2024": "6,40%(2023)",
+   "2025": "3,5% (IBGE 2024) - Não há dados disponíveis para 2025"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "SEGREGAÇÃO SOCIOESPACIAL",
+  "id_ces": "48",
+  "id_nova_ordem": null,
+  "id_floripa": "44",
+  "ods": "1.9.3",
+  "orgao_responsavel": "SMPHDU/SDU/DIRF",
+  "indicador": "Percentual de moradias sem títulos legais de propriedade em relação ao número total de moradias.",
+  "faixas_semaforizacao": {
+   "verde": "redução superior a 20% da média da base histórica desse indicador",
+   "amarelo": "estabilidade ou redução até 20% da média",
+   "vermelho": "aumento do número de edificações"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "3,94 %",
+   "2023": "3,94 %",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "SEGREGAÇÃO SOCIOESPACIAL",
+  "id_ces": "49",
+  "id_nova_ordem": null,
+  "id_floripa": "45",
+  "ods": "5.1.4",
+  "orgao_responsavel": "SMPHDU/SUBHAB",
+  "indicador": "Percentual de pessoas vivendo em moradias inadequadas em relação à população total.",
+  "faixas_semaforizacao": {
+   "verde": "redução superior a 20% da média da base histórica desse indicador",
+   "amarelo": "estabilidade ou redução até 20% da média",
+   "vermelho": "aumento do número de edificações"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "2.52%",
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "2,52 %",
+   "2024": "ND",
+   "2025": "8% *Conforme Dados Censo 2022"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "SEGREGAÇÃO SOCIOESPACIAL",
+  "id_ces": "50",
+  "id_nova_ordem": null,
+  "id_floripa": "46",
+  "ods": "5.1.6",
+  "orgao_responsavel": "SEMAS",
+  "indicador": "Pessoas em situação de rua (por 100 mil habitantes)",
+  "faixas_semaforizacao": {
+   "verde": "redução superior a 20% da média da base histórica desse indicador",
+   "amarelo": "estabilidade ou redução até 20% da média",
+   "vermelho": "aumento do número de edificações"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "1.002 / 100 mil hab",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "DESIGUALDADE DE RENDA",
+  "id_ces": "51",
+  "id_nova_ordem": null,
+  "id_floripa": "47",
+  "ods": "5.2.10",
+  "orgao_responsavel": "SEMAS/FRN",
+  "indicador": "Coeficiente de Gini da renda (Fonte: PENAD Contínua do IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "< 0,40",
+   "amarelo": "0,40–0,49",
+   "vermelho": "> 0,49"
+  },
+  "dados_anuais": {
+   "2018": "0,54 (2010)",
+   "2019": "0,54 (2010)",
+   "2020": "0,54",
+   "2021": "0,54 (2010)",
+   "2022": "0,419 (FIESC 2022)",
+   "2023": "0,419 (FIESC 2022)",
+   "2024": "0,4 (IBGE 2023)",
+   "2025": "0,49 (IBGE 2024) - Não há dados disponíveis para 2025"
+  }
+ },
+ {
+  "tema": "DESIGUALDADE URBANA",
+  "subtema": "DESIGUALDADE DE RENDA",
+  "id_ces": "52",
+  "id_nova_ordem": "L17",
+  "id_floripa": "48",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Remuneração média dos trabalhadores formais (Fonte: Secretaria do Trabalho - RAIS)",
+  "faixas_semaforizacao": {
+   "verde": "Acima de R$ 3.280",
+   "amarelo": "R$ 2.569 a R$ 3.280",
+   "vermelho": "R$ 788 a R$ 2.568"
+  },
+  "dados_anuais": {
+   "2018": "R$ 3.153,00",
+   "2019": "ND",
+   "2020": "ND Ainda não foram publicados os dados de 2020",
+   "2021": "R$ 5.411,68 (Ano base de 2020. Ainda não foram publicados os dados de 2021)",
+   "2022": "R$ 5.459,98 Fonte: RAIS ano base 2021 - ainda não foram publicado os dados de 2022",
+   "2023": "7667,02",
+   "2024": "R$ 7 799,98",
+   "2025": "R$ 8 054,74"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "53",
+  "id_nova_ordem": null,
+  "id_floripa": "49",
+  "ods": null,
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Quilômetros de vias públicas por 100 mil habitantes (População projetada do IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "< 300",
+   "amarelo": "300–400",
+   "vermelho": "> 400"
+  },
+  "dados_anuais": {
+   "2018": "1.172,24 km",
+   "2019": "357,49",
+   "2020": "352,68 km/100 mil hab.",
+   "2021": "347,73 km",
+   "2022": "334,3 km/",
+   "2023": "334,3 km/(base 2022)",
+   "2024": "310,61 KM/110 MIL HAB",
+   "2025": "307,43 KM/100 MIL HAB"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "54",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "50",
+  "ods": "2.5.3",
+  "orgao_responsavel": "SMPHDU/DGEO",
+  "indicador": "Porcentagem de vias públicas não pavimentadas em relação ao total de quilômetros de vias públicas",
+  "faixas_semaforizacao": {
+   "verde": "< 5%",
+   "amarelo": "5%-10%",
+   "vermelho": "> 10%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "40,39%",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "6.65% (2022)",
+   "2023": "6.65% (2022)",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "55",
+  "id_nova_ordem": null,
+  "id_floripa": "51",
+  "ods": "2.1.5",
+  "orgao_responsavel": "SMTI/FNR",
+  "indicador": "Comprimento total (km) dos sistemas de transporte público em operação na cidade dividido pela população total da cidade, expresso km por 100.000 habitantes. (***)",
+  "faixas_semaforizacao": {
+   "verde": "> 1.275",
+   "amarelo": "1.250 - 1.274",
+   "vermelho": "< 1.250"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "1.282,34 por 100 mil hab",
+   "2023": "1.282,34 km/100 mil hab (2022)",
+   "2024": "1.255,83 km/100 mil hab",
+   "2025": "1.207,85 km/100 mil hab"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "56",
+  "id_nova_ordem": null,
+  "id_floripa": "52",
+  "ods": "2.1.4",
+  "orgao_responsavel": "SMTI",
+  "indicador": "Quilômetros de vias dedicadas exclusivamente ao transporte público por 100 mil habitantes (população projetada do IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "> 40",
+   "amarelo": "10–40",
+   "vermelho": "< 10"
+  },
+  "dados_anuais": {
+   "2018": "0",
+   "2019": "0%",
+   "2020": "0%",
+   "2021": "ND",
+   "2022": "0,197",
+   "2023": "ND",
+   "2024": "0,18%",
+   "2025": "0,450"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "57",
+  "id_nova_ordem": null,
+  "id_floripa": "53",
+  "ods": "somar:2.2.2+2.2.3+2.2.4",
+  "orgao_responsavel": "SMTI/FNR",
+  "indicador": "Quilômetros de ciclovias, ciclofaixas e ciclorotas por 100 mil habitantes (população projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "> 25",
+   "amarelo": "15–25",
+   "vermelho": "< 15"
+  },
+  "dados_anuais": {
+   "2018": "23,74",
+   "2019": "25,01",
+   "2020": "Km total de infraestrutura cicloviária: 164,81 km / 508.826 = 32,39 km / 100 mil habitantes.",
+   "2021": "35,89 KM",
+   "2022": "40,06 km/ 100 mil habitantes.",
+   "2023": "25,89 km / 100 mil hab",
+   "2024": "26,81 km / 100 mil hab",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "58",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "54",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Porcentagem de km de ciclovias, ciclofaixas e ciclorotas em relação ao total de km de vias da cidade",
+  "faixas_semaforizacao": {
+   "verde": ">25%",
+   "amarelo": "25%-15%",
+   "vermelho": "<15%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "1,51%",
+   "2020": "164,81 km / 1.794,54 km = 9,18%",
+   "2021": "10,32%",
+   "2022": "11,98%",
+   "2023": "11.98%",
+   "2024": "154,52 km / 1.794,54 km = 8,61%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "59",
+  "id_nova_ordem": null,
+  "id_floripa": "55",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Quilômetros de calçadas e calçadões pavimentados, por 100 mil habitantes (população projetada pelo IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "Mais de quatro vezes a extensão da rede de rodovias",
+   "amarelo": "Entre duas e quatro vezes a extensão da rede de rodovias",
+   "vermelho": "Menos de duas vezes a extensão da rede de rodovias"
+  },
+  "dados_anuais": {
+   "2018": "ND",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "60",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "56",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Porcentagem de km de calçadas e calçadões pavimentados, em relação ao total de km de vias",
+  "faixas_semaforizacao": {
+   "verde": ">70%",
+   "amarelo": "70%-50%",
+   "vermelho": "<50%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "60%",
+   "2023": "60%",
+   "2024": "60%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "61",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "57",
+  "ods": null,
+  "orgao_responsavel": "SMI",
+  "indicador": "Quilometragem média/mês rodada pela frota de transporte público",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "2.862.446 km",
+   "2020": "1.273.214,96 km/mês média",
+   "2021": "1 853 096,91",
+   "2022": "2.750.000",
+   "2023": "2.811.300",
+   "2024": "2.734.075",
+   "2025": "3 093 710,97"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "62",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "58",
+  "ods": null,
+  "orgao_responsavel": "SMI",
+  "indicador": "Quantidade média/mês de pessoas transportadas pelo transporte público",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "175.378",
+   "2020": "1.768.150,67 passageiros/mês .",
+   "2021": "2 569 218,33",
+   "2022": "4.603.849",
+   "2023": "4.902.930",
+   "2024": "4.934.532",
+   "2025": "5 105 469"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "63",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "59",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Custo anual do sistema de transporte público (subsídio + custo do consórcio) por pessoa transportada",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "R$ 4.25",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "R$ 5,27",
+   "2023": "R$ 5,32",
+   "2024": "R$ 5,84",
+   "2025": "6,54"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "64",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "60",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Velocidade média/mês da frota de transporte público",
+  "faixas_semaforizacao": {
+   "verde": ">30%",
+   "amarelo": "30%–15%",
+   "vermelho": "< 15%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "23 km/h",
+   "2020": "ND",
+   "2021": "24,23 km/h",
+   "2022": "23,53 KM/H",
+   "2023": "23,00 km/h",
+   "2024": "22.91km/h",
+   "2025": "23,00 km/h"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "65",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "61",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Média/mês da capacidade ofertada para o transporte de pessoas no sistema de transporte público",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "7.351.979 média/mês da capacidade ofertada.",
+   "2021": "12.800.000",
+   "2022": "16.300.000",
+   "2023": "14.442.624",
+   "2024": "16.099.959",
+   "2025": "- 15 176 917-"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "66",
+  "id_nova_ordem": null,
+  "id_floripa": "62",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Distribuição modal: porcentagem do transporte realizado via bicicleta, barco, taxi, aplicativo, carro particular e ônibus.",
+  "faixas_semaforizacao": {
+   "verde": "> 65%",
+   "amarelo": "50%–65%",
+   "vermelho": "< 50%"
+  },
+  "dados_anuais": {
+   "2018": "65%",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "INFRAESTRUTURA DE TRANSPORTE EQUILIBRADA",
+  "id_ces": "67",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "63",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Média/litros/mês do consumo de óleo diesel da frota de transporte público (Fonte: Consórcio Fênix)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "0,3438 l/km",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "834.462",
+   "2023": "1.062.886",
+   "2024": "1.222.319",
+   "2025": "1.368.997,28"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE LIMPO",
+  "id_ces": "68",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "64",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Porcentagem da frota de transporte público movida a energia elétrica",
+  "faixas_semaforizacao": {
+   "verde": "> 20%",
+   "amarelo": "20%–10%",
+   "vermelho": "< 10%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "0%",
+   "2020": "0%",
+   "2021": "0%",
+   "2022": "0%",
+   "2023": "0%",
+   "2024": "0%",
+   "2025": "0%"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE LIMPO",
+  "id_ces": "69",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "65",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Porcentagem da frota de transporte público com ar condicionado",
+  "faixas_semaforizacao": {
+   "verde": "> 70%",
+   "amarelo": "70%–50%",
+   "vermelho": "< 50%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "18,50%",
+   "2020": "19,74%",
+   "2021": "19,75%",
+   "2022": "18,00%",
+   "2023": "18,00%",
+   "2024": "4,00%",
+   "2025": "18,00%"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE LIMPO",
+  "id_ces": "70",
+  "id_nova_ordem": null,
+  "id_floripa": "66",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Idade média da frota do transporte público",
+  "faixas_semaforizacao": {
+   "verde": "< 6",
+   "amarelo": "6–12",
+   "vermelho": "> 12"
+  },
+  "dados_anuais": {
+   "2018": "6",
+   "2019": "5,9 anos",
+   "2020": "6,78 anos.",
+   "2021": "7 anos e 9 meses",
+   "2022": "8 anos e 6 meses",
+   "2023": "8,43 anos",
+   "2024": "8,94",
+   "2025": "8,74"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE SEGURO",
+  "id_ces": "71",
+  "id_nova_ordem": null,
+  "id_floripa": "67",
+  "ods": "10.2.1",
+  "orgao_responsavel": "SSP/FNR",
+  "indicador": "Vítimas mortais de acidentes de trânsito por 100 mil habitantes (***)",
+  "faixas_semaforizacao": {
+   "verde": "< 10",
+   "amarelo": "10–20",
+   "vermelho": "> 20"
+  },
+  "dados_anuais": {
+   "2018": "12.98",
+   "2019": "10.18",
+   "2020": "7,3(10,81 FRN)",
+   "2021": "5,6 (8,32 FRN)",
+   "2022": "1,3 (6,89 FRN)",
+   "2023": "1,9 (5,7 FRN)",
+   "2024": "2,4 (8,64 FNR)",
+   "2025": "1,9"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE SEGURO",
+  "id_ces": "72",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "68",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Quantidade anual de pessoas hospitalizadas por acidentes de trânsito por 100.000 habitantes (população projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "<15 (2026)",
+   "amarelo": "15-20",
+   "vermelho": ">20"
+  },
+  "dados_anuais": {
+   "2018": "22.29",
+   "2019": "23.15",
+   "2020": "14.80",
+   "2021": "17,82",
+   "2022": "21,09",
+   "2023": "14,15",
+   "2024": "14,92",
+   "2025": "20,77"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "MENOS CONGESTIONAMENTO",
+  "id_ces": "73",
+  "id_nova_ordem": null,
+  "id_floripa": "69",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Velocidade média de viagem (transporte público e privado) nas principais vias públicas durante os horários de pico",
+  "faixas_semaforizacao": {
+   "verde": "> 30",
+   "amarelo": "15–30",
+   "vermelho": "< 15"
+  },
+  "dados_anuais": {
+   "2018": "24",
+   "2019": "17 km/h",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "20,12",
+   "2023": "19,75",
+   "2024": "21.81",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "MENOS CONGESTIONAMENTO",
+  "id_ces": "74",
+  "id_nova_ordem": null,
+  "id_floripa": "70",
+  "ods": "2.4.1",
+  "orgao_responsavel": "SMTI/FNR",
+  "indicador": "Número de veículos de uso pessoal (automóveis, SUV's, etc) registrados no DETRAN local (exceto táxis) per capita (população projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "< 0,3",
+   "amarelo": "0,3–0,4",
+   "vermelho": "> 0,4"
+  },
+  "dados_anuais": {
+   "2018": "0,45",
+   "2019": "0,63",
+   "2020": "0,63",
+   "2021": "0,638",
+   "2022": "0,722",
+   "2023": "0,65",
+   "2024": "0,723",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MOBILIDADE / TRANSPORTE",
+  "subtema": "TRANSPORTE ECONÔMICO",
+  "id_ces": "75",
+  "id_nova_ordem": null,
+  "id_floripa": "71",
+  "ods": null,
+  "orgao_responsavel": "SMTI",
+  "indicador": "Índice de acessibilidade (Salário Mínimo Nacional/(44 viagens mês* valor da tarifa em dinheiro))",
+  "faixas_semaforizacao": {
+   "verde": "Até 5%",
+   "amarelo": "5%–10%",
+   "vermelho": "> 10%"
+  },
+  "dados_anuais": {
+   "2018": "ND DIFÍCIL APURAÇÃO",
+   "2019": "5,15",
+   "2020": "5,27",
+   "2021": "6,12",
+   "2022": "5,00",
+   "2023": "R$1.412,00/(44* R$6,00) = 5,35",
+   "2024": "4,65(Tarifa Din R$ 6,00)",
+   "2025": "5,94 (tar din R$ 6,90)"
+  }
+ },
+ {
+  "tema": "AMBIENTE DE NEGÓCIOS",
+  "subtema": "REGULAÇÃO DE NEGÓCIOS E INVESTIMENTOS",
+  "id_ces": "76",
+  "id_nova_ordem": null,
+  "id_floripa": "72",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Quantidade de dias para abrir uma empresa",
+  "faixas_semaforizacao": {
+   "verde": "< 12",
+   "amarelo": "12 - 20",
+   "vermelho": "> 20"
+  },
+  "dados_anuais": {
+   "2018": "65 dias",
+   "2019": "Baixo Risco - Mesmo Dia (4 horas) Outras Categorias de Risco - em até 15 dias",
+   "2020": "1 dia e 19 horas",
+   "2021": "1 dia e 1 hora (Mapa de Empresas, Ministério da Economia)",
+   "2022": "12 horas",
+   "2023": "12 horas",
+   "2024": "5 horas",
+   "2025": "4 horas"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "GESTÃO ESTRATÉGICA DA INFRAESTRUTURA",
+  "id_ces": "77",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "73",
+  "ods": null,
+  "orgao_responsavel": "FLORIPA AIRPORT",
+  "indicador": "Tonelada de carga transportada pelo aeroporto no ano (Fonte: Infraero e aeroporto) (***)",
+  "faixas_semaforizacao": {
+   "verde": "≥ 12.000 toneladas (2026)",
+   "amarelo": "8.000 - 11.999 toneladas",
+   "vermelho": "< 8.000 toneladas"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "2.500 toneladas Carga Internacional 3.550 toneladas carga doméstica Total 6.050",
+   "2023": "3.070 toneladas Carga Internacional 5.284 toneladas carga doméstica Total: 8.354",
+   "2024": "6.568 toneladas Carga Internacional 6.578 toneladas carga doméstica Total: 13.146",
+   "2025": "7.284 toneladas Carga Internacional 5.359 toneladas carga doméstica Total: 12.634"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "GESTÃO ESTRATÉGICA DA INFRAESTRUTURA",
+  "id_ces": "78",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "74",
+  "ods": null,
+  "orgao_responsavel": "FLORIPA AIPORT",
+  "indicador": "Quantidade de pessoas transportadas pelo aeroporto ano- Consultar Infraero e aeroporto",
+  "faixas_semaforizacao": {
+   "verde": "≥ 6.000.000 (2026)",
+   "amarelo": "6.000.000 - 5.000.000",
+   "vermelho": "< 5.000.000"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "3.393.219 de passageiros em 2022",
+   "2023": "3.955.113 de passageiros em 2023",
+   "2024": "4.895.252 de passageiros em 2024",
+   "2025": "5.167.090 de passageiros em 2025"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "GESTÃO ESTRATÉGICA DA INFRAESTRUTURA",
+  "id_ces": "79",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "75",
+  "ods": null,
+  "orgao_responsavel": "SIE e Adm da Rodoviária Rita Maria (SINART ORGANIZAÇÕES)",
+  "indicador": "Quantidade de viagens de ônibus ano (chegadas e saídas no ano) (indicador novo 2024)",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "Chegados= 72.618 Saidos/Transito = 76.440 Total= 149.058",
+   "2025": "Chegados= 59.143 Saidos/Transito = 62.256 Total= 121.399"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "GESTÃO ESTRATÉGICA DA INFRAESTRUTURA",
+  "id_ces": "80",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "76",
+  "ods": null,
+  "orgao_responsavel": "SIE",
+  "indicador": "Quantidade de pessoas transportadas pela rodoviária ano (Fonte: rodoviária e Deter)",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "Chegados=791.42 8 + Saidos = 850.637 Total 1.642.065",
+   "2023": "Chegados= 985.834 Saidos=1.037.72 1 Total= 2.023.555",
+   "2024": "Chegados= 1.218.210 Saidos=1.282.32 6 Total= 2.500.536",
+   "2025": "Chegados= 1.137.870 Saidos= 1.002.453 Total= 2.140.323"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "GESTÃO ESTRATÉGICA DA INFRAESTRUTURA",
+  "id_ces": "81",
+  "id_nova_ordem": null,
+  "id_floripa": "77",
+  "ods": "8.2.1",
+  "orgao_responsavel": "SMTDI",
+  "indicador": "PIB per capita da cidade (Fonte IBGE - Estatisticas)",
+  "faixas_semaforizacao": {
+   "verde": ">US$ 9.000",
+   "amarelo": "US$ 3.000–US$ 9.000",
+   "vermelho": "< US$ 3.000"
+  },
+  "dados_anuais": {
+   "2018": "42.720 (T$ 3.8750)",
+   "2019": "43.847 (U$ 4.0795)",
+   "2020": "41.886 (U$ 5,4854)",
+   "2021": "45.603 (U$ 5.5748)",
+   "2022": "R$ 41.885,53 Fonte: IBGE ano base 2020",
+   "2023": "PIB Per Capita 2021 R$ 45.602,98/PIB Per Capita 2020 R$ 41.885,53)",
+   "2024": "45.602,98 R$ [2021] US$ 8.460,66",
+   "2025": "R$ 58.059,37 (2023) US$ 11.565,61"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "CRESCIMENTO PRODUTIVO",
+  "id_ces": "82",
+  "id_nova_ordem": null,
+  "id_floripa": "78",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Taxa de crescimento do PIB per capita da cidade (Fonte: IBGE Estatísticas)",
+  "faixas_semaforizacao": {
+   "verde": "> 2,5% O crescimento do PIB per capita da cidade é positivo e superior ao crescimento do PIB nacional (2)",
+   "amarelo": "2-2,5% O crescimento do PIB per capita da cidade é positivo e igual ou similar ao crescimento do PIB nacional (1)",
+   "vermelho": "<2% O PIB per capita da cidade é inferior ao crescimento do PIB nacional (0)"
+  },
+  "dados_anuais": {
+   "2018": "5,5%",
+   "2019": "2,85%",
+   "2020": "6,36%",
+   "2021": "2,63% (Cálculo com base no indicador do ano anterior!)",
+   "2022": "- 4,46% Fonte: IBGE - ano base 2020 (renda percapita ano atual/renda per capita ano anterior)",
+   "2023": "1,08%",
+   "2024": "1,08%",
+   "2025": "17,47%"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "CRESCIMENTO PRODUTIVO",
+  "id_ces": "83",
+  "id_nova_ordem": null,
+  "id_floripa": "79",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Porcentagem do PIB de Florianópolis em relação ao PIB de SC (***)",
+  "faixas_semaforizacao": {
+   "verde": "> maior que a inflação",
+   "amarelo": "igual a inflação",
+   "vermelho": "< que a inflação"
+  },
+  "dados_anuais": {
+   "2018": "7,26% (inflação 3,75%)",
+   "2019": "ND",
+   "2020": "14% (inflação 4,51%)",
+   "2021": "6,79 % (inflação 10,06%)",
+   "2022": "6,1% (inflação 5,78%)",
+   "2023": "5,48% (2021) (Inflação 10,06%)",
+   "2024": "6,1% (2023) (Inflação 4,62%)",
+   "2025": "6,1% (2023) (Inflação 4,62%)"
+  }
+ },
+ {
+  "tema": "TECIDO PRODUTIVO",
+  "subtema": "CRESCIMENTO PRODUTIVO",
+  "id_ces": "84",
+  "id_nova_ordem": null,
+  "id_floripa": "80",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Taxa de crescimento do PIB da cidade (Fonte: IBGE Estatisticas)",
+  "faixas_semaforizacao": {
+   "verde": ">3,5% O crescimento do PIB da cidade é positivo e superior ao crescimento do PIB nacional (2)",
+   "amarelo": "3-3,5% O crescimento do PIB da cidade é positivo e igual ou similar ao crescimento do PIB nacional (1)",
+   "vermelho": "<3% O crescimento do PIB da cidade é positivo e igual ou similar ao ao crescimento do PIB nacional (0)"
+  },
+  "dados_anuais": {
+   "2018": "5,5%",
+   "2019": "ND",
+   "2020": "7,90%",
+   "2021": "2,60%",
+   "2022": "2,97% Fonte: IBGE - ano base 2020 (PIB ano atual/PIB ano anterior)",
+   "2023": "10% (IBGE)",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "MERCADO LABORAL",
+  "subtema": "DESEMPREGO",
+  "id_ces": "85",
+  "id_nova_ordem": null,
+  "id_floripa": "81",
+  "ods": "8.1.5",
+  "orgao_responsavel": "SMTDI/FNR",
+  "indicador": "Taxa de desemprego (Fonte: IBGE - ESTATISTICAS - PNAD Contínua) (***)",
+  "faixas_semaforizacao": {
+   "verde": "< 7%",
+   "amarelo": "7%–12%",
+   "vermelho": "> 12%"
+  },
+  "dados_anuais": {
+   "2018": "6,5% (janeiro a setembro)",
+   "2019": "ND",
+   "2020": "8,30% (jan, fev, mar 2020)",
+   "2021": "ND",
+   "2022": "5,37%",
+   "2023": "4,30%",
+   "2024": "4,40%",
+   "2025": "3,60%"
+  }
+ },
+ {
+  "tema": "MERCADO LABORAL",
+  "subtema": "EMPREGO FORMAL",
+  "id_ces": "86",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "82",
+  "ods": "8.1.7",
+  "orgao_responsavel": "SMTDI/FNR",
+  "indicador": "Porcentagem da população ocupada - Formal (Fonte: IBGE - ESTATISTICAS - PNAD Contínua) https://cidades.ibge.gov.br/brasil/sc/florianopolis/panorama",
+  "faixas_semaforizacao": {
+   "verde": "> 75%",
+   "amarelo": "75% - 65%",
+   "vermelho": "< 65%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "63,90%",
+   "2020": "ND",
+   "2021": "ND ( PNAD Contínua somente traz dados de SC)",
+   "2022": "72% Fonte: PNAD continua, painel, ano base 2019 - taxa de ocupação e não formalidade",
+   "2023": "63,72% (2010)",
+   "2024": "64,40%",
+   "2025": "63,30%"
+  }
+ },
+ {
+  "tema": "MERCADO LABORAL",
+  "subtema": "EMPREGO INFORMAL",
+  "id_ces": "87",
+  "id_nova_ordem": null,
+  "id_floripa": "83",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Emprego informal como porcentagem do emprego total (Fonte: IBGE - ESTATISTICAS - PNAD Contínua) https://cidades.ibge.gov.br/brasil/sc/florianopolis/panorama",
+  "faixas_semaforizacao": {
+   "verde": "< 20%",
+   "amarelo": "20%–35%",
+   "vermelho": "> 35%"
+  },
+  "dados_anuais": {
+   "2018": "8%",
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND ( PNAD Contínua somente traz dados de SC)",
+   "2022": "28,4% Fonte: PNAD continua, painel, ano base 2019 ( taxa de informalidade = 100 - taxa de formalidade)",
+   "2023": "27,50%",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "89",
+  "id_nova_ordem": null,
+  "id_floripa": "84",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Taxa de analfabetismo de pessoas acima de 15 anos",
+  "faixas_semaforizacao": {
+   "verde": "< 0,5%",
+   "amarelo": "0,5% - 2%",
+   "vermelho": "> 2%"
+  },
+  "dados_anuais": {
+   "2018": "1,6%",
+   "2019": "1,60%",
+   "2020": "1,60% (dados de 2019)",
+   "2021": "ND",
+   "2022": "1,60% (dados de 2019)",
+   "2023": "1,10%",
+   "2024": "1,4% (https://educa.ibge.gov.br/jovens/conheca-o-brasil/territorio/22321-alfabetizacao.html)",
+   "2025": "1,4% https://censo2022.ibge.gov.br/panorama/?localidade=4205407"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "90",
+  "id_nova_ordem": null,
+  "id_floripa": "85",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcentagem de Estudantes do ensino fundamental com nível satisfatório em provas padronizadas (IDEB) de Leitura",
+  "faixas_semaforizacao": {
+   "verde": ">=70%",
+   "amarelo": "69%–50%",
+   "vermelho": "> 50%"
+  },
+  "dados_anuais": {
+   "2018": "IDEB 2017 - 64 % (23% avançado e 41% proficiente) 5º ano",
+   "2019": "35%(2019)",
+   "2020": "35%(2019)",
+   "2021": "35%(2019)",
+   "2022": "35%(2019)",
+   "2023": "43% (2021)",
+   "2024": "31% (https://qedu.org.br/municipio/4205407-florianopolis-filtro:municipal)",
+   "2025": "31% (https://qedu.org.br/municipio/4205407-florianopolis-filtro:municipal"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "86",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Nota IDEB dos anos iniciais",
+  "faixas_semaforizacao": {
+   "verde": ">6",
+   "amarelo": "6-5",
+   "vermelho": "<5"
+  },
+  "dados_anuais": {
+   "2018": "6,2(2017)",
+   "2019": "6",
+   "2020": "6(2019)",
+   "2021": "5,9",
+   "2022": "5,9(2021)",
+   "2023": "5,8",
+   "2024": "5.8(2023)",
+   "2025": "5.8(2023)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "87",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Nota IDEB dos anos finais",
+  "faixas_semaforizacao": {
+   "verde": ">6",
+   "amarelo": "6-5",
+   "vermelho": "<5"
+  },
+  "dados_anuais": {
+   "2018": "5(2017)",
+   "2019": "4,9",
+   "2020": "4,9(2019)",
+   "2021": "5,2",
+   "2022": "5,2(2021)",
+   "2023": "4,6",
+   "2024": "4,6(2023)",
+   "2025": "4,6(2023)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "91",
+  "id_nova_ordem": null,
+  "id_floripa": "88",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcentagem de Estudantes do ensino fundamental com nível satisfatório em provas padronizadas (IDEB) de Matemática",
+  "faixas_semaforizacao": {
+   "verde": ">=70%",
+   "amarelo": "69%–50%",
+   "vermelho": "> 50%"
+  },
+  "dados_anuais": {
+   "2018": "IDEB 2017 - 48 % (11% avançado e 37% proficiente) 5º ano",
+   "2019": "19% (2019)",
+   "2020": "19% (2019)",
+   "2021": "19%(2019)",
+   "2022": "18% (2021)",
+   "2023": "18% (2021)",
+   "2024": "14,% ((https://qedu.org.br/municipio/4205407-florianopolis-filtro:municipal)",
+   "2025": "14,% ((https://qedu.org.br/municipio/4205407-florianopolis-filtro:municipal)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "89",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Quantidade de professores (Efetivos) na Educação Básica do Município",
+  "faixas_semaforizacao": {
+   "verde": ">60%",
+   "amarelo": "60%-50%",
+   "vermelho": "<50%"
+  },
+  "dados_anuais": {
+   "2018": "1047 (52,7%)",
+   "2019": "1004 (50%)",
+   "2020": "975 (47,5%)",
+   "2021": "996 (49,5%)",
+   "2022": "1193 (51,1%)",
+   "2023": "1131 (44,4%)",
+   "2024": "954 (39,30%)",
+   "2025": "2281 (60%)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "90",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Quantidade de professores (ACTs) na Educação Básica do Município",
+  "faixas_semaforizacao": {
+   "verde": "<50%",
+   "amarelo": "50%-60%",
+   "vermelho": ">60%"
+  },
+  "dados_anuais": {
+   "2018": "938 (47,2%)",
+   "2019": "1001 (49,9%)",
+   "2020": "1078 (52,5%)",
+   "2021": "1015 (50,5%)",
+   "2022": "1140 (48,9%)",
+   "2023": "1417 (55,6%)",
+   "2024": "1471 (60,7%)",
+   "2025": "1500 (40%)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "91",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcetagem de profisisonais da educação com especialização (efetivos + substitutos)",
+  "faixas_semaforizacao": {
+   "verde": ">60%",
+   "amarelo": "60%-40%",
+   "vermelho": "<40%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "61,07%",
+   "2025": "2461 (65%)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "92",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcetagem de profisisonais da educação com mestrado (efetivos + substitutos)",
+  "faixas_semaforizacao": {
+   "verde": ">20%",
+   "amarelo": "20%-10%",
+   "vermelho": "<10%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "13,12%",
+   "2025": "452 (12%)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "93",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcetagem de profisisonais da educação com doutorado (efetivos + substitutos)",
+  "faixas_semaforizacao": {
+   "verde": ">5%",
+   "amarelo": "5%-4%",
+   "vermelho": "<4%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "4,17%",
+   "2025": "182 (4,8%)"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "94",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Percentual de alunos da educação básica pública que pertencem ao público alvo da ETI e que estão em jornada de tempo integral( Rede Municipal) - Meta 6A",
+  "faixas_semaforizacao": {
+   "verde": ">=25%",
+   "amarelo": "20 - 24,9%",
+   "vermelho": "<19,9"
+  },
+  "dados_anuais": {
+   "2018": "33,7%",
+   "2019": "32,1%%",
+   "2020": "24,70%",
+   "2021": "24,00%",
+   "2022": "27,30%",
+   "2023": "27,10%",
+   "2024": null,
+   "2025": "32,50%"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "95",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Percentual da população de 0 a 3 anos que frequenta a escola/creche.(Território) - Meta 1B Fonte TCE SC",
+  "faixas_semaforizacao": {
+   "verde": ">50%",
+   "amarelo": "<50-40",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": "49,4%",
+   "2019": "53,15%",
+   "2020": "44,69%",
+   "2021": "40,06%",
+   "2022": "45,91%",
+   "2023": "59,60%",
+   "2024": null,
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "96",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Percentual da população de 4 a 5 anos que frequenta a escola/creche .(Território) - Meta 1A - Fonte TCE SC",
+  "faixas_semaforizacao": {
+   "verde": "95-100%",
+   "amarelo": "<95-90",
+   "vermelho": "<90"
+  },
+  "dados_anuais": {
+   "2018": "86,375",
+   "2019": "89,59%",
+   "2020": "86,21%",
+   "2021": "76,79%",
+   "2022": "81,42%",
+   "2023": "97,89%",
+   "2024": null,
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "94",
+  "id_nova_ordem": null,
+  "id_floripa": "97",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Percentual da população de 6 a 14 anos que frequenta ou que já concluiu o ensino fundamental Meta 2 A - Fonte TCE SC",
+  "faixas_semaforizacao": {
+   "verde": "95-100",
+   "amarelo": "<94",
+   "vermelho": "<90"
+  },
+  "dados_anuais": {
+   "2018": "101,62% IBGE",
+   "2019": "103,40% IBGE",
+   "2020": "96,51% TCE SC",
+   "2021": "96,03% TCE SC",
+   "2022": "99,18% TCE SC",
+   "2023": "106,18% TCE SC",
+   "2024": null,
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "95",
+  "id_nova_ordem": null,
+  "id_floripa": "98",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Número de estudantes matriculados nos anos finais do ensino fundamental - que esta cursando o ensino médio ou concluiu o ensino fundamental (15 a 17 anos) Meta 3 B - IBGE",
+  "faixas_semaforizacao": {
+   "verde": "95-100",
+   "amarelo": "<94",
+   "vermelho": "<90"
+  },
+  "dados_anuais": {
+   "2018": "69,5%",
+   "2019": "71,80%",
+   "2020": "72,70%",
+   "2021": "73,40%",
+   "2022": "83,31%",
+   "2023": "74,60%",
+   "2024": null,
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "98",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "99",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Número de estudantes público alvo da educação especial matriculadas na Educação Básica (0 a 17 anos)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": "728",
+   "2019": "841",
+   "2020": "905",
+   "2021": "952",
+   "2022": "1335",
+   "2023": "1716",
+   "2024": "1952",
+   "2025": "2268"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "QUALIDADE DO ENSINO",
+  "id_ces": "99",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "100",
+  "ods": null,
+  "orgao_responsavel": "SME",
+  "indicador": "Porcentagem das escolas que cumprem a Lei de Acessibilidade",
+  "faixas_semaforizacao": {
+   "verde": "> 95%",
+   "amarelo": "95% - 90%",
+   "vermelho": "< 90%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "Não é levantado pelo município.",
+   "2020": "91% ou seja, 106 unidades educativas da rede municipal possuem dependências acessíveis",
+   "2021": "95,07%",
+   "2022": "96,46 %",
+   "2023": "96,19%",
+   "2024": "96,21%",
+   "2025": "54% dado Infraestrutura, base MPSC Termo Ajuste de Conduta /2025"
+  }
+ },
+ {
+  "tema": "EDUCAÇÃO",
+  "subtema": "ENSINO SUPERIOR",
+  "id_ces": "100",
+  "id_nova_ordem": null,
+  "id_floripa": "101",
+  "ods": "4.1.6",
+  "orgao_responsavel": "SME/FNR",
+  "indicador": "Número de pessoas com ensino superior completo acima de 25 anos (por 100 mil habitantes)",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "271711 (+ 25 anos TOTAL)",
+   "2021": "271711",
+   "2022": "383891",
+   "2023": "383891",
+   "2024": "383891",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "101",
+  "id_nova_ordem": null,
+  "id_floripa": "102",
+  "ods": "10.1.5",
+  "orgao_responsavel": "SSP/FNR",
+  "indicador": "Quantidade de homicídios por 100 mil habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "< 10",
+   "amarelo": "10–25",
+   "vermelho": "> 25"
+  },
+  "dados_anuais": {
+   "2018": "30,6",
+   "2019": "12,2",
+   "2020": "10,60",
+   "2021": "6,90",
+   "2022": "6,90",
+   "2023": "5,00",
+   "2024": "5,40",
+   "2025": "4,10"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "102",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "103",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Quantidade de latrocínios por 100.000 habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "<5",
+   "amarelo": "5-10",
+   "vermelho": ">10"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "0,0",
+   "2020": "0,20",
+   "2021": "0,00",
+   "2022": "0,40",
+   "2023": "0,20",
+   "2024": "0,00",
+   "2025": "0,00"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "103",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "104",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Quantidade de feminicídios por 100.000 habitantes mulheres - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "<5",
+   "amarelo": "5-10",
+   "vermelho": ">10"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "Nº de vítimas: 1",
+   "2020": "0,70",
+   "2021": "0,70",
+   "2022": "0,60",
+   "2023": "0,20",
+   "2024": "0,50",
+   "2025": "0,70"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "104",
+  "id_nova_ordem": null,
+  "id_floripa": "105",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Número de ocorrências de violência doméstica em mulheres",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": "0,6 % (827 eventos pela população total da faixa de 126.204 - estimativa IBGE 2018)",
+   "2019": "Nº de ocorrências de lesão corporal dolosa em situação de violência doméstica. Vítimas do sexo masculino: 154; Vítimas do sexo feminino: 1.081 = 247 por 100 mil hab",
+   "2020": "5.342",
+   "2021": "5.815",
+   "2022": "4.684",
+   "2023": "5.233",
+   "2024": "4.485",
+   "2025": "4.330"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "105",
+  "id_nova_ordem": null,
+  "id_floripa": "106",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Roubos por 100 mil habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "< 300",
+   "amarelo": "300–1.000",
+   "vermelho": "> 1.000"
+  },
+  "dados_anuais": {
+   "2018": "370,8",
+   "2019": "324,2",
+   "2020": "205,8",
+   "2021": "194,3",
+   "2022": "150,0",
+   "2023": "155,1",
+   "2024": "153",
+   "2025": "112,2"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "106",
+  "id_nova_ordem": null,
+  "id_floripa": "107",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Furtos por 100 mil habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "< 3.000",
+   "amarelo": "3.000–5.000",
+   "vermelho": "> 5.000"
+  },
+  "dados_anuais": {
+   "2018": "2.301,9",
+   "2019": "2326,3",
+   "2020": "1616,20",
+   "2021": "1600,40",
+   "2022": "2.407,60",
+   "2023": "2.973,90",
+   "2024": "2.671,20",
+   "2025": "2.553,8"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "107",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "108",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Furtos de veículos por 100 mil habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "<100",
+   "amarelo": "100-150",
+   "vermelho": ">150"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "92,0",
+   "2020": "67,70",
+   "2021": "64,70",
+   "2022": "68,70",
+   "2023": "76,1",
+   "2024": "67,3",
+   "2025": "55,3"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "108",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "109",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Roubos de veículos por 100 mil habitantes - população projetada pelo IBGE",
+  "faixas_semaforizacao": {
+   "verde": "<50",
+   "amarelo": "50-75",
+   "vermelho": ">75"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "40,5",
+   "2020": "21,50",
+   "2021": "20,10",
+   "2022": "17,10",
+   "2023": "18,1",
+   "2024": "13,9",
+   "2025": "9,9"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "VIOLÊNCIA",
+  "id_ces": "109",
+  "id_nova_ordem": null,
+  "id_floripa": "110",
+  "ods": "10.1.10",
+  "orgao_responsavel": "SSP/FNR",
+  "indicador": "Crimes contra a propriedade por 100 000 habitantes ***",
+  "faixas_semaforizacao": {
+   "verde": "<50",
+   "amarelo": "50-75",
+   "vermelho": ">75"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "18,4",
+   "2021": "21",
+   "2022": "4.793",
+   "2023": "5.243",
+   "2024": "5.383",
+   "2025": "5.298"
+  }
+ },
+ {
+  "tema": "SEGURANÇA",
+  "subtema": "ESTRUTURAS DE SEGURANÇA",
+  "id_ces": "110",
+  "id_nova_ordem": "L20",
+  "id_floripa": "111",
+  "ods": null,
+  "orgao_responsavel": "SSP",
+  "indicador": "Quantidade de CONSEGs ativos",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": "8",
+   "2019": "Esta Gerência não tem essa informação",
+   "2020": "8 CONSEGS ativos",
+   "2021": "ND",
+   "2022": "8 ATIVOS: 1 CONSEG Centro 2 CONSEG Portal do Sul da Ilha 3 CONSEG Barra da Lagoa 4 CONSEG Canasvieiras 5 CONSEG Ingleses e Rio Vermelho 6 CONSEG Jurerê, Forte e Daniela 7 CONSEG Coqueiros 8 CONSEG Balneário do Estreito (Fonte Rodrigo Marques Presidente CONSEG Centro)",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "15"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "111",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "112",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa Geral de mortalidade por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "497.81",
+   "2019": "476.98",
+   "2020": "543.56",
+   "2021": "647.08",
+   "2022": "568.26",
+   "2023": "545.65",
+   "2024": "559,02",
+   "2025": "566.48"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "112",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "113",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa Geral de mortalidade de homens por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "570.04",
+   "2019": "520.16",
+   "2020": "601.56",
+   "2021": "712.32",
+   "2022": "633.41",
+   "2023": "569.40",
+   "2024": "595,93",
+   "2025": "605.32"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "113",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "114",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa Geral de mortalidade de mulheres por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "430.71",
+   "2019": "436.52",
+   "2020": "489.72",
+   "2021": "586.58",
+   "2022": "507.57",
+   "2023": "523.64",
+   "2024": "524,49",
+   "2025": "530,25"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "114",
+  "id_nova_ordem": null,
+  "id_floripa": "115",
+  "ods": "3.1.4",
+  "orgao_responsavel": "SMS/FNR",
+  "indicador": "Taxa de mortalidade infantil (crianças menores de 5 anos)por 100.000 habitantes (População projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "< 20",
+   "amarelo": "20 -30",
+   "vermelho": "> 30"
+  },
+  "dados_anuais": {
+   "2018": "7.54",
+   "2019": "5.22",
+   "2020": "7.78",
+   "2021": "6.10",
+   "2022": "7.73",
+   "2023": "6,37",
+   "2024": "6.90",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "115",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "116",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de mortalidade Precoce (Anos potenciais de vida perdido - APVP) por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "<4000",
+   "amarelo": "4000-5000",
+   "vermelho": ">5000"
+  },
+  "dados_anuais": {
+   "2018": "4828.12",
+   "2019": "4113.40",
+   "2020": "4488.74",
+   "2021": "4940.25",
+   "2022": "4432.35",
+   "2023": "4238.98",
+   "2024": "4148,79",
+   "2025": "4314.14"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "117",
+  "ods": null,
+  "orgao_responsavel": null,
+  "indicador": "Taxa de mortalidade Precoce (Anos potenciais de vida perdido - APVP) por 100.000 habitantes (População projetada IBGE - FEMININO novo 2026",
+  "faixas_semaforizacao": {
+   "verde": "<3000",
+   "amarelo": "3000-3500",
+   "vermelho": ">3500"
+  },
+  "dados_anuais": {
+   "2018": "3008,57",
+   "2019": "2761,57",
+   "2020": "3191,1",
+   "2021": "3357,71",
+   "2022": "2933,61",
+   "2023": "2930,99",
+   "2024": "2754,18",
+   "2025": "2745.65"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "118",
+  "ods": null,
+  "orgao_responsavel": null,
+  "indicador": "Taxa de mortalidade Precoce (Anos potenciais de vida perdido - APVP) por 100.000 habitantes (População projetada IBGE) - MASCULINO novo 2026",
+  "faixas_semaforizacao": {
+   "verde": "<4000",
+   "amarelo": "4000-5000",
+   "vermelho": ">5000"
+  },
+  "dados_anuais": {
+   "2018": "6786,90",
+   "2019": "5569,2",
+   "2020": "5886,86",
+   "2021": "6646,77",
+   "2022": "6050,35",
+   "2023": "5650,25",
+   "2024": "5653,71",
+   "2025": "6007.56"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "116",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "119",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de mortalidade por doenças cardovasculares por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "145.27",
+   "2019": "137.95",
+   "2020": "138.42",
+   "2021": "141.98",
+   "2022": "152.47",
+   "2023": "154.18",
+   "2024": "152,16",
+   "2025": "147.24"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "117",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "120",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de mortalidade por neoplasias por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "128,46",
+   "2019": "129,15",
+   "2020": "131,49",
+   "2021": "139,59",
+   "2022": "141,3",
+   "2023": "145,7",
+   "2024": "150,77",
+   "2025": "149.11"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "118",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "121",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de mortalidade por causas externas (acidentes, crimes, etc.) por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": "38.13",
+   "2019": "35.59",
+   "2020": "39.89",
+   "2021": "46.65",
+   "2022": "50.82",
+   "2023": "46.86",
+   "2024": "50,66",
+   "2025": "48.51"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "122",
+  "ods": null,
+  "orgao_responsavel": null,
+  "indicador": "Taxa de internação de ADULTOS por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": ">5000",
+   "amarelo": "5000-6000",
+   "vermelho": ">6000"
+  },
+  "dados_anuais": {
+   "2018": "5241,32",
+   "2019": "5352,88",
+   "2020": "4390,58",
+   "2021": "4 532",
+   "2022": "4636,0",
+   "2023": "5331,5",
+   "2024": "5512,7",
+   "2025": "5980,2"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "119",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "123",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de internação de POR CONDIÇÕES SENSÍVEIS ATENÇÃO PRIMÁRIA por 100.000 habitantes (População projetada IBGE) (***) - 2026 novo",
+  "faixas_semaforizacao": {
+   "verde": ">600",
+   "amarelo": "600-650",
+   "vermelho": ">650"
+  },
+  "dados_anuais": {
+   "2018": "675,28",
+   "2019": "656,84",
+   "2020": "520,77",
+   "2021": "534",
+   "2022": "587,2",
+   "2023": "656,0",
+   "2024": "621,3",
+   "2025": "709.75"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "120",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "124",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de internação de crianças por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": ">3500",
+   "amarelo": "3500-4500",
+   "vermelho": ">4500"
+  },
+  "dados_anuais": {
+   "2018": "4141,87",
+   "2019": "4020,6",
+   "2020": "2693,65",
+   "2021": "3 111",
+   "2022": "4132,5",
+   "2023": "5009,81",
+   "2024": "5026,5",
+   "2025": "4867,8"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "121",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "125",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de internação por causas externas (acidentes, crimes, etc. ) por 100.000 habitantes (População projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "<500",
+   "amarelo": "500-600",
+   "vermelho": ">600"
+  },
+  "dados_anuais": {
+   "2018": "541,41",
+   "2019": "595,42",
+   "2020": "499,73",
+   "2021": "500,51",
+   "2022": "510,56",
+   "2023": "632,47",
+   "2024": "668,85",
+   "2025": "818,06"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "122",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "126",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de internação por doenças cardiovasculares por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "<400",
+   "amarelo": "400-450",
+   "vermelho": ">450"
+  },
+  "dados_anuais": {
+   "2018": "414,32",
+   "2019": "476,98",
+   "2020": "382,1",
+   "2021": "388,28",
+   "2022": "421,19",
+   "2023": "462,73",
+   "2024": "471,06",
+   "2025": "497,54"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "123",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "127",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Taxa de internação por neoplasias por 100.000 habitantes (População projetada IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "<400",
+   "amarelo": "400-450",
+   "vermelho": ">450"
+  },
+  "dados_anuais": {
+   "2018": "370,72",
+   "2019": "351,28",
+   "2020": "359,25",
+   "2021": "358,34",
+   "2022": "377,94",
+   "2023": "383,51",
+   "2024": "489,45",
+   "2025": "542,48"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "124",
+  "id_nova_ordem": "L22",
+  "id_floripa": "128",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Prevalência de Diabetes Millitus: Percentual da população atendida nos hospitais e postos de Saúde pública que tem diabetes - População projetada pelo IBGE (***)",
+  "faixas_semaforizacao": {
+   "verde": "<6,5%",
+   "amarelo": "6,5%-7,5%",
+   "vermelho": ">7,5%"
+  },
+  "dados_anuais": {
+   "2018": "6,85",
+   "2019": "6,61",
+   "2020": "8,34",
+   "2021": "7,76",
+   "2022": "ND",
+   "2023": "7,6",
+   "2024": "7,87",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "125",
+  "id_nova_ordem": "L23",
+  "id_floripa": "129",
+  "ods": "3.1.9",
+  "orgao_responsavel": "SMS/FNR",
+  "indicador": "Prevalência de obesidade: Percentual de indivíduos, com Índice de Massa Corporal (IMC) maior ou igual a 25 (População projetada pelo IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "<15%",
+   "amarelo": "15% a 20%",
+   "vermelho": ">20%"
+  },
+  "dados_anuais": {
+   "2018": "17,37",
+   "2019": "18,01",
+   "2020": "18,17",
+   "2021": "21,44",
+   "2022": "ND",
+   "2023": "20,92",
+   "2024": "20,81",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "130",
+  "ods": null,
+  "orgao_responsavel": "SMS/FNR",
+  "indicador": "Prevalência de atividade física insuficiente (2026)",
+  "faixas_semaforizacao": {
+   "verde": "<1%",
+   "amarelo": "1% a 1,5%",
+   "vermelho": ">1,5%"
+  },
+  "dados_anuais": {
+   "2018": "0,98",
+   "2019": "1,25",
+   "2020": "1,17",
+   "2021": "1,01",
+   "2022": "ND",
+   "2023": "1,22",
+   "2024": "0,82",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "131",
+  "ods": null,
+  "orgao_responsavel": "SMS/FNR",
+  "indicador": "Consumo Regular de Frutas e hortaliças (2026)",
+  "faixas_semaforizacao": {
+   "verde": ">45%",
+   "amarelo": "45%-40%",
+   "vermelho": "<40%"
+  },
+  "dados_anuais": {
+   "2018": "44,09",
+   "2019": "44,03",
+   "2020": "47,85",
+   "2021": "44,28",
+   "2022": "ND",
+   "2023": "41,24",
+   "2024": "42,71",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "NÍVEL DE SAÚDE",
+  "id_ces": "126",
+  "id_nova_ordem": "L24",
+  "id_floripa": "132",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Prevalência de Hipertensão: Percentual de pessoas com diagnóstico de hipertensão (População projetada pelo IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "Abaixo de 5,7%",
+   "amarelo": "5,7% a 10%",
+   "vermelho": "Acima de 10%"
+  },
+  "dados_anuais": {
+   "2018": "21,01",
+   "2019": "22,72",
+   "2020": "23,19",
+   "2021": "25,05",
+   "2022": "ND",
+   "2023": "23,35",
+   "2024": "24,75",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "127",
+  "id_nova_ordem": null,
+  "id_floripa": "133",
+  "ods": "3.1.3",
+  "orgao_responsavel": "SMS/FNR",
+  "indicador": "Quantidade de médicos por 100 mil habitantes (População projetada pelo IBGE) (***)",
+  "faixas_semaforizacao": {
+   "verde": "> 800",
+   "amarelo": "800-600",
+   "vermelho": "<600"
+  },
+  "dados_anuais": {
+   "2018": "684,73",
+   "2019": "735,28",
+   "2020": "774,87",
+   "2021": "812,38",
+   "2022": "856,98",
+   "2023": "906,89",
+   "2024": "955,3",
+   "2025": "1012,8"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "128",
+  "id_nova_ordem": null,
+  "id_floripa": "134",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Quantidade de leitos de hospital por 100 mil habitantes, em hospitais públicos e privados (***)",
+  "faixas_semaforizacao": {
+   "verde": ">400",
+   "amarelo": "400-350",
+   "vermelho": "<350"
+  },
+  "dados_anuais": {
+   "2018": "367,59",
+   "2019": "358,93",
+   "2020": "369,55",
+   "2021": "408,12",
+   "2022": "406,41",
+   "2023": "402,96",
+   "2024": "400,44",
+   "2025": "406,82"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "129",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "135",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Quantidade de leitos de UTI em hospitais públicos e privados (***)",
+  "faixas_semaforizacao": {
+   "verde": ">50",
+   "amarelo": "50-40",
+   "vermelho": "<40%"
+  },
+  "dados_anuais": {
+   "2018": "44,19",
+   "2019": "45,54",
+   "2020": "62,56",
+   "2021": "70,53",
+   "2022": "53,35",
+   "2023": "52,87",
+   "2024": "52,74",
+   "2025": "55,66"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "130",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "136",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Total de gasto do município com saúde pública por 100.000 habitantes (***)",
+  "faixas_semaforizacao": {
+   "geral": "Sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": "95 877 266,64",
+   "2019": "98 982 435,83",
+   "2020": "101 405 915,30",
+   "2021": "99 430 296,27",
+   "2022": "106 473 187,30",
+   "2023": "103 994 187,10",
+   "2024": "116 188 577,10",
+   "2025": "122 826 332,79"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "131",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "137",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Total do valor recebidos do Estado e do Governo Federal, destinados à saúde no município por 100.000 habitantes(***)",
+  "faixas_semaforizacao": {
+   "geral": "Sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": "34 528 302,51",
+   "2019": "31 621 944,45",
+   "2020": "47 471 802,58",
+   "2021": "31 908 754,12",
+   "2022": "33 559 743,01",
+   "2023": "28 016 314,20",
+   "2024": "39 120 687,89",
+   "2025": "39 189 104,29"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "132",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "138",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Percentual da população estimada coberta pela Estratégia de Saúde da Família, conforme parâmetros do MS(***)",
+  "faixas_semaforizacao": {
+   "verde": ">95%",
+   "amarelo": "95-90",
+   "vermelho": "<90"
+  },
+  "dados_anuais": {
+   "2018": "97,27",
+   "2019": "97,98333",
+   "2020": "82,21833",
+   "2021": "69,49083",
+   "2022": "84,59583",
+   "2023": "98,77833",
+   "2024": "108,3908",
+   "2025": "103,2617"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "133",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "139",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Média/mês de pessoas atendidas nos Postos de Saúde. (***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "74 921,64",
+   "2020": "68 262,75",
+   "2021": "85 522,42",
+   "2022": "96 534,83",
+   "2023": "97 504,58",
+   "2024": "98 117,00",
+   "2025": "98 280,42"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "140",
+  "ods": null,
+  "orgao_responsavel": null,
+  "indicador": "Média/mês de pessoas atendidas em UPAS(***)",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "19839,18",
+   "2020": "15093,08",
+   "2021": "19832,5",
+   "2022": "25 233,83",
+   "2023": "26722,08",
+   "2024": "30468,17",
+   "2025": "31226,75"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": "134",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "141",
+  "ods": null,
+  "orgao_responsavel": "SMS (ANS)",
+  "indicador": "Cobertura saúde suplementar: Percentual da população com plano de saúde na modalidade médica (médica e odontológica)",
+  "faixas_semaforizacao": {
+   "verde": ">40%",
+   "amarelo": "40-35",
+   "vermelho": "<35"
+  },
+  "dados_anuais": {
+   "2018": "37,16049",
+   "2019": "34,85154",
+   "2020": "34,77058",
+   "2021": "36,86665",
+   "2022": "37,43",
+   "2023": "36,20783",
+   "2024": "35,93425",
+   "2025": "35,60817"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "142",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - BCG - ao nascer",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "21,86%",
+   "2024": "58,73%",
+   "2025": "96,84%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "143",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - HEPATITE B - ao nascer",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "20,35%",
+   "2024": "57,61%",
+   "2025": "95,25%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "144",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - FEBRE AMARELA - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "63,79%",
+   "2024": "69,07%",
+   "2025": "66,48%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "145",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertira Vacinal Pneumocócica Conjugada - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<41"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "90,36%",
+   "2025": "91,25%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "146",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - HEPATITE B - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "79,58%",
+   "2024": "84,11%",
+   "2025": "não consta mais"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "147",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - DTP - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "79,60%",
+   "2024": "84,51%",
+   "2025": "não consta mais"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "148",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - MENINGO C - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "66,05%",
+   "2024": "79,14%",
+   "2025": "87,27%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "149",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - PENTAVALENTE(DTP/DEpB/Hib) - menores 1 no",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "79,40%",
+   "2024": "87,57%",
+   "2025": "85,04%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "150",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - PNEUMO 10 - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "78,46%",
+   "2024": "86,78%",
+   "2025": "não monitorado mais ou mudou para PNEUMOCOC ICA"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "151",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - POLIOMELITE injetável - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "78,98%",
+   "2024": "86,88%",
+   "2025": "85,59%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "152",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - ROTAVIRUS - menores 1 ano",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "76,51%",
+   "2024": "86,96%",
+   "2025": "88,16%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "153",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - HEPATITE A - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "74,90%",
+   "2024": "77,29%",
+   "2025": "83,36%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "154",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - DTP 1º reforço - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "68,21%",
+   "2024": "77,57%",
+   "2025": "77,39%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "155",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - TRIPLICE VIRAL 1ª dose - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "75,49%",
+   "2024": "88,82%",
+   "2025": "88,93%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "156",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - TRIPLICE VIRAL 2ª dose - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "59,31%",
+   "2024": "60,54%",
+   "2025": "71,04%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "157",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vaional - PNEUMOCÓCIcA CONJUGADA (1º Reforço ) 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<41"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": "82,63%",
+   "2025": "82,21%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "158",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - PNEUMO 10 1º reforço - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "68,62%",
+   "2024": "79,68%",
+   "2025": "não monitorado mais ou mudou para PNEUMOCOC ICA"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "159",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - VARICELA - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "54,55%",
+   "2024": "59,41%",
+   "2025": "69,70%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "160",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - POLIO ORAL LIVALENTE ou POLIO INJETÁVEL 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "68,73%",
+   "2024": "83,54%",
+   "2025": "75,30%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "161",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - MENINGO C - 1 ano de idade",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "62,55%",
+   "2024": "74,23%",
+   "2025": "87,23%"
+  }
+ },
+ {
+  "tema": "SAÚDE",
+  "subtema": "OFERTA DE SERVIÇOS DE SAÚDE",
+  "id_ces": null,
+  "id_nova_ordem": null,
+  "id_floripa": "162",
+  "ods": null,
+  "orgao_responsavel": "SMS",
+  "indicador": "Cobertura Vacinal - DTPA ADULTO",
+  "faixas_semaforizacao": {
+   "verde": ">80%",
+   "amarelo": "41 até 80%",
+   "vermelho": "<40"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": "69,46%",
+   "2024": "75,39%",
+   "2025": "não consta mais"
+  }
+ },
+ {
+  "tema": "CAPITAL HUMANO",
+  "subtema": "CULTURA",
+  "id_ces": "136",
+  "id_nova_ordem": "L18",
+  "id_floripa": "163",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Investimento em cultura per capita: por habitante (população projetada IBGE)",
+  "faixas_semaforizacao": {
+   "verde": "> R$ 26,83",
+   "amarelo": "R$ 17,88 a R$ 26,82",
+   "vermelho": "< R$ 17,87"
+  },
+  "dados_anuais": {
+   "2018": "R$ 20,75",
+   "2019": "R$ 29,59",
+   "2020": "R$ 2,32",
+   "2021": "R$ 4,01",
+   "2022": "R$26,24",
+   "2023": "R$ 58,22",
+   "2024": "R$ 52,26 (recursos próprios)",
+   "2025": "R$ 18.827.858,09 = R$ 32,05 35,05 % (Rec. Próprios) Contabilidade Geral"
+  }
+ },
+ {
+  "tema": "CAPITAL HUMANO",
+  "subtema": "CULTURA",
+  "id_ces": "137",
+  "id_nova_ordem": "L19",
+  "id_floripa": "164",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Investimento em cultura sobre receita corrente líquida (%) (***)",
+  "faixas_semaforizacao": {},
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "0,58%",
+   "2021": "0,60%",
+   "2022": "0,54%",
+   "2023": "1,04%",
+   "2024": "0,89%",
+   "2025": "0,50% Contabilidade Geral"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "INTERNACIONALIZAÇÃO",
+  "id_ces": "138",
+  "id_nova_ordem": null,
+  "id_floripa": "165",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Valor Total Exportação FOB (US$) - https://comexstat.mdic.gov.br/pt/municipio (***)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "$33.980.716",
+   "2020": "$26.406.990",
+   "2021": "$40.839.598",
+   "2022": "(US$)46.283.170",
+   "2023": "US$ 51.811.796",
+   "2024": "US$ 65.232.646",
+   "2025": "US$ 93.629.230"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "INTERNACIONALIZAÇÃO",
+  "id_ces": "novo",
+  "id_nova_ordem": null,
+  "id_floripa": "166",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Percentual de crescimento do FOB de Florianópolis (incluído em 2026)",
+  "faixas_semaforizacao": {
+   "verde": "> 10%",
+   "amarelo": "3,5%–10%",
+   "vermelho": "< 3,5 %"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": "11,76%",
+   "2023": "11,94%",
+   "2024": "25,90%",
+   "2025": "43,53%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "139",
+  "id_nova_ordem": null,
+  "id_floripa": "167",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Incremento anual da quantidade de empresas - Porcentagem de novas empresas abertas no ano (inclui todos os tamanhos de empresas) (***)",
+  "faixas_semaforizacao": {
+   "verde": "> 19%(média nacional)",
+   "amarelo": "19%-16%",
+   "vermelho": "< 16%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "Aprox. 20%",
+   "2020": "27%",
+   "2021": "24% 2020 = 97811 empresas - novas em 2021 = 23786 - fonte: Mapa de Empresas/ME",
+   "2022": "22% Fonte: mapa de empresas, ano base 2022 (novas empresas/ empresas ativas)",
+   "2023": "21%",
+   "2024": "21%",
+   "2025": "21%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "140",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "168",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação do faturamento, em relação ao ano anterior, das empresas de tecnologia (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "verde": "> IPCA",
+   "amarelo": "IPCA -2%",
+   "vermelho": "< IPCA - 3%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "18,46",
+   "2020": "113,87%",
+   "2021": "ND",
+   "2022": "34,22%",
+   "2023": "30,19%",
+   "2024": "36,81%",
+   "2025": "12,78%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "141",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "169",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de participação da receita de impostos cobrados do setor de tecnologia em relação aos impostos totais (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "verde": ">15%",
+   "amarelo": "7% -15%",
+   "vermelho": "< 7%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "15,64",
+   "2020": "1,83%",
+   "2021": "ND",
+   "2022": "23,41%",
+   "2023": "25,97%",
+   "2024": "27,89%",
+   "2025": "26,61%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "142",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "170",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação do faturamento, em relação ao ano anterior, das empresas de hotelaria e pousadas (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "verde": "> IPCA",
+   "amarelo": "IPCA -2%",
+   "vermelho": "< IPCA - 3%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "-17,99",
+   "2020": "59,18%",
+   "2021": "ND",
+   "2022": "70,55%",
+   "2023": "45,20%",
+   "2024": "14,56%",
+   "2025": "6,58%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "143",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "171",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de participação da receita de impostos cobrados do setor de saúde privada em relação aos impostos totais (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "1,9",
+   "2020": "1,03%",
+   "2021": "ND",
+   "2022": "13,97%",
+   "2023": "14,37%",
+   "2024": "14,38%",
+   "2025": "14,23%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "144",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "172",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação do faturamento, em relação ao ano anterior, das empresas de saúde privada (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "verde": "> IPCA",
+   "amarelo": "IPCA -2%",
+   "vermelho": "< IPCA - 3%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "739,01",
+   "2020": "109,31%",
+   "2021": "ND",
+   "2022": "26,80%",
+   "2023": "20,65%",
+   "2024": "27,46%",
+   "2025": "17,01%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "145",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "173",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de participação da receita de impostos cobrados do segmento de hotelaria e pousada em relação aos impostos totais (NAO CONSIDERA SIMPLES NACIONAL E MEI a partir de 2025)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "2,19",
+   "2020": "2,50%",
+   "2021": "ND",
+   "2022": "4,02%",
+   "2023": "4,97%",
+   "2024": "4,47%",
+   "2025": "4,03%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "146",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "174",
+  "ods": null,
+  "orgao_responsavel": "SEF",
+  "indicador": "Porcentagem de variação do faturamento, em relação ao ano anterior, das empresas de bares e restaurantes",
+  "faixas_semaforizacao": {
+   "verde": "> IPCA",
+   "amarelo": "IPCA -2%",
+   "vermelho": "< IPCA - 3%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "13,6%",
+   "2020": "-16,5%",
+   "2021": "45,3%",
+   "2022": "36,30%",
+   "2023": "16,70%",
+   "2024": "13,04%",
+   "2025": "15,31%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "147",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "175",
+  "ods": null,
+  "orgao_responsavel": "SEF",
+  "indicador": "Percentual de participação da receita de impostos do segmento de bares e restaurantes em relação aos impostos totais",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "0,62%",
+   "2020": "0,46%",
+   "2021": "0,63%",
+   "2022": "0,80%",
+   "2023": "0,87%",
+   "2024": "2,14%",
+   "2025": "2,25%"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "149",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "176",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Porcentagem de Crescimento de pessoas empregadas no segmento de tecnologia (Fonte: ACATE)",
+  "faixas_semaforizacao": {
+   "verde": "> 5",
+   "amarelo": "4,99 - ZERO",
+   "vermelho": "< -1"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "4,10%",
+   "2020": "4,10%",
+   "2021": "12,22%",
+   "2022": "22,15%",
+   "2023": "Em Florianópolis (2022): 38.402 Crescimento de 23,49%, na comparação com o ano anterior (31.096).",
+   "2024": "Em Florianópolis (2022): 38.402 Crescimento de 23,49%, na comparação com o ano anterior (31.096).",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "150",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "177",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Porcentagem de Crescimento de pessoas empregadas no segmento de Hotelaria (Fonte: SHRBS)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "ND",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "151",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "178",
+  "ods": null,
+  "orgao_responsavel": "SHRBS",
+  "indicador": "Porcentagem de ocupação dos leitos de hotelaria e pousada (Fonte SHRBS)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "57,80%",
+   "2020": "30,80%",
+   "2021": "45,70%",
+   "2022": "69,10%",
+   "2023": "57,16",
+   "2024": "63,80%",
+   "2025": "41,40 %"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "152",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "179",
+  "ods": null,
+  "orgao_responsavel": "SMTDI",
+  "indicador": "Porcentagem de Crescimento de pessoas empregadas no segmento de bares e restaurantes (Fonte: SHRBS)",
+  "faixas_semaforizacao": {
+   "geral": "sem valor de referência"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "3%",
+   "2020": "ND",
+   "2021": "ND",
+   "2022": "ND",
+   "2023": "ND",
+   "2024": "ND",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "TECIDO EMPRESARIAL",
+  "subtema": "DESENVOLVIMENTO EMPRESARIAL",
+  "id_ces": "153",
+  "id_nova_ordem": null,
+  "id_floripa": "180",
+  "ods": "8.1.6",
+  "orgao_responsavel": "SMTDI/FNR",
+  "indicador": "Número de empresas (por 100 mil habitantes)",
+  "faixas_semaforizacao": {
+   "verde": "> 2%",
+   "amarelo": "mais 1% a menos 3%",
+   "vermelho": "< 4%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": null,
+   "2020": "fazer a conta",
+   "2021": "7.660",
+   "2022": null,
+   "2023": "23.440",
+   "2024": "24.779",
+   "2025": "25 626"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "155",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "181",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem do gasto com pessoal em relação ao gasto total (conforme conta 3.1.1.00.00.00 conforme dados do SICONFI do TCE-SC)",
+  "faixas_semaforizacao": {
+   "verde": ">48%",
+   "amarelo": "48,1% - 51%",
+   "vermelho": "< 51%"
+  },
+  "dados_anuais": {
+   "2018": "60,51%",
+   "2019": "62,73%",
+   "2020": "62,63%",
+   "2021": "55,14%",
+   "2022": "51,85%",
+   "2023": "54,49%",
+   "2024": "46,07%",
+   "2025": "42,06%"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "156",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "182",
+  "ods": null,
+  "orgao_responsavel": "SMA",
+  "indicador": "Porcentagem mensal de horas falta sem atestado, em relação ao total de horas contratadas",
+  "faixas_semaforizacao": {
+   "verde": "< 0,7%",
+   "amarelo": "0,70%-1%",
+   "vermelho": ">1%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "0,41%",
+   "2020": "0,35%",
+   "2021": "0,50%",
+   "2022": "0,43%",
+   "2023": "0,45%",
+   "2024": "0,52%",
+   "2025": "0,69%"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "157",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "183",
+  "ods": null,
+  "orgao_responsavel": "SMA",
+  "indicador": "Porcentagem mensal de horas falta com atestado, em relação ao total de horas contratadas",
+  "faixas_semaforizacao": {
+   "verde": "< 5%",
+   "amarelo": "5%-8%",
+   "vermelho": ">8%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "9,65%",
+   "2020": "7,05%",
+   "2021": "8,71%",
+   "2022": "8,32%",
+   "2023": "9,43%",
+   "2024": "10,24%",
+   "2025": "10,99%"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "158",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "184",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública municipal feitas por meio de pregão eletrônico",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "28,47%",
+   "2020": "54,34%",
+   "2021": "49,16%",
+   "2022": "47,75%",
+   "2023": "43,02%",
+   "2024": "53,62%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "159",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "185",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública municipais feitas por meio de pregão presencial",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "13,30%",
+   "2020": "1,62%",
+   "2021": "14,85%",
+   "2022": "4,55%",
+   "2023": "2,22%",
+   "2024": "0,00%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "160",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "186",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública municipais feitas por meio de tomada de preços",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "17,65%",
+   "2020": "7,68%",
+   "2021": "1,73%",
+   "2022": "3,26%",
+   "2023": "6,65%",
+   "2024": "0,00%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "161",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "187",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública por inelegibilidade, por contratação direta",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "4,12%",
+   "2020": "2,27%",
+   "2021": "3,94%",
+   "2022": "7,17%",
+   "2023": "13,30%",
+   "2024": "20,55%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "162",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "188",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública municipais em que são dispensadas licitações com base em lei especifica",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "11,51%",
+   "2020": "9,83%",
+   "2021": "16,67%",
+   "2022": "12,31%",
+   "2023": "25,72%",
+   "2024": "5,85%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "GESTÃO PÚBLICA MODERNA",
+  "subtema": "PROCESSOS MODERNOS DE GESTÃO PÚBLICA DO ORÇAMENTO MUNICIPAL",
+  "id_ces": "163",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "189",
+  "ods": null,
+  "orgao_responsavel": "SMLCP",
+  "indicador": "Porcentagem do valor das compras totais da administração pública municipal feitas por meio de concorrência pública",
+  "faixas_semaforizacao": {
+   "geral": "INFORMATIVO"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "24,16%",
+   "2020": "18,28%",
+   "2021": "9,50%",
+   "2022": "24,13%",
+   "2023": "6,65%",
+   "2024": "13,74%",
+   "2025": "ND"
+  }
+ },
+ {
+  "tema": "TRANSPARÊNCIA",
+  "subtema": "TRANSPARÊNCIA E AUDITORIA DA GESTÃO PÚBLICA",
+  "id_ces": "164",
+  "id_nova_ordem": null,
+  "id_floripa": "190",
+  "ods": null,
+  "orgao_responsavel": "Controladoria Geral do Município",
+  "indicador": "Índice de transparência(***)",
+  "faixas_semaforizacao": {
+   "verde": "Diamante >95% > 6",
+   "amarelo": "Ouro <94,99% até 85%",
+   "vermelho": "Prata <84,99 até 75%"
+  },
+  "dados_anuais": {
+   "2018": "6,87",
+   "2019": "106",
+   "2020": "ótimo",
+   "2021": "ND",
+   "2022": "97,40%",
+   "2023": "índice: 85,77% Classificação: Ouro https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html",
+   "2024": "índice: 85,16% Classificação: Ouro https://radardatransparencia.atricon.org.br/radar-da-transparencia-publica.html",
+   "2025": "87.51% Classificação: Ouro https://radardatransparencia.atricon.org.br/ https://informefloripa.com/florianopolis-garante-selo-ouro-de-transparencia-em-avaliacao-nacional-de-2025/?utm_source=chatgpt.com"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "165",
+  "id_nova_ordem": null,
+  "id_floripa": "191",
+  "ods": "9.2.6",
+  "orgao_responsavel": "SMF/FNR",
+  "indicador": "Receita própria: Porcentagem da receita do governo municipal proveniente de tributos (tarifas, encargos e impostos) permitidos pela lei em relação à receita total.",
+  "faixas_semaforizacao": {
+   "verde": ">50%",
+   "amarelo": "49,99% até 40%",
+   "vermelho": "<40%"
+  },
+  "dados_anuais": {
+   "2018": "67,46%",
+   "2019": "46,6",
+   "2020": "60%",
+   "2021": "48%",
+   "2022": "55,51% no FNR informa 62,28%",
+   "2023": "51,19%",
+   "2024": "46,85%",
+   "2025": "47,03%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "166",
+  "id_nova_ordem": null,
+  "id_floripa": "192",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem das transferências totais recebidas de outros níveis de governo em relação a receita total.",
+  "faixas_semaforizacao": {
+   "verde": "<40",
+   "amarelo": "40-50",
+   "vermelho": ">50"
+  },
+  "dados_anuais": {
+   "2018": "32,80%",
+   "2019": "22,94",
+   "2020": "27,64%",
+   "2021": "32,47%",
+   "2022": "34,49%",
+   "2023": "34,05%",
+   "2024": "32,97%",
+   "2025": "33,25%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "169",
+  "id_nova_ordem": null,
+  "id_floripa": "193",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem das receitas próprias acrescidas as transferências sem fim definido em relação a receita total",
+  "faixas_semaforizacao": {
+   "verde": "≥ 80%",
+   "amarelo": "> 61% e < 80%",
+   "vermelho": "≤ 61%"
+  },
+  "dados_anuais": {
+   "2018": "84,8",
+   "2019": "64,7",
+   "2020": "60,19%",
+   "2021": "64,53%",
+   "2022": "72,42%",
+   "2023": "72,37%",
+   "2024": "62,63%",
+   "2025": "67,62%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "170",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "194",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem da variação anual da cota parte do ICMS",
+  "faixas_semaforizacao": {
+   "verde": "Acima do IPCA",
+   "amarelo": "Igual ao IPCA",
+   "vermelho": "Abaixo do IPCA"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "10,68%",
+   "2020": "0,47%",
+   "2021": "17,86%",
+   "2022": "7,63%",
+   "2023": "0,83% (IPCA 2023 = 4,62%)",
+   "2024": "12,26% (IPCA 2024 = 4,83%)",
+   "2025": "7,4% (IPCA 2025 = 4,26%)"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "171",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "195",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação anual da arrecadação do ISS",
+  "faixas_semaforizacao": {
+   "verde": "Acima do IPCA",
+   "amarelo": "Igual ao IPCA",
+   "vermelho": "Abaixo do IPCA"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "12,70%",
+   "2020": "-6,00%",
+   "2021": "26,50%",
+   "2022": "30,70%",
+   "2023": "28,37%",
+   "2024": "9,33%",
+   "2025": "16,39%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "172",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "196",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação anual da arrecadação do IPTU",
+  "faixas_semaforizacao": {
+   "verde": "Acima do IPCA",
+   "amarelo": "Igual ao IPCA",
+   "vermelho": "Abaixo do IPCA"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "6,10%",
+   "2020": "1,31%",
+   "2021": "9,27%",
+   "2022": "12,23%",
+   "2023": "14,27%",
+   "2024": "2,09%",
+   "2025": "11,58% (mudança de critério contábil ao final de 2025, oque impactará no crescimento a menor em 2026 - reconhecimento doIPTU antecipado como receita no ato do recebimento)"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "173",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "197",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Percentual da variação anual da arrecadação do ITBI",
+  "faixas_semaforizacao": {
+   "verde": "Acima do IPCA",
+   "amarelo": "Igual ao IPCA",
+   "vermelho": "Abaixo do IPCA"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "13,01%",
+   "2020": "11,08%",
+   "2021": "57,49%",
+   "2022": "-8,83%",
+   "2023": "-4,74%",
+   "2024": "18,17%",
+   "2025": "14,81%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "RECEITAS E IMPOSTOS MUNICIPAIS",
+  "id_ces": "174",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "198",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de variação da dívida ativa em relação ao ano anterior",
+  "faixas_semaforizacao": {
+   "verde": "< 0",
+   "amarelo": "0 - IPCA",
+   "vermelho": "> IPCA"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "-0,06%",
+   "2020": "18,09%",
+   "2021": "8,48%",
+   "2022": "54,78%",
+   "2023": "105,18%",
+   "2024": "14,82%",
+   "2025": "-4,07%"
+  }
+ },
+ {
+  "tema": "IMPOSTOS E AUTONOMIA FINANCEIRA",
+  "subtema": "GESTÃO DE COBRANÇAS",
+  "id_ces": "175",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "199",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem de inadimplência do IPTU",
+  "faixas_semaforizacao": {
+   "verde": "<10%",
+   "amarelo": "10%-15%",
+   "vermelho": ">15%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "38,47%",
+   "2020": "29,63%",
+   "2021": "15,10%",
+   "2022": "19,77%",
+   "2023": "19,81%",
+   "2024": "16,73%",
+   "2025": "18,21%"
+  }
+ },
+ {
+  "tema": "GESTÃO DO GASTO PÚBLICO",
+  "subtema": "QUALIDADE DO GASTO PÚBLICO",
+  "id_ces": "176",
+  "id_nova_ordem": null,
+  "id_floripa": "200",
+  "ods": null,
+  "orgao_responsavel": "SMF (Siconfi-TCE/SC)",
+  "indicador": "Porcentagem dos gastos correntes em relação aos gastos totais",
+  "faixas_semaforizacao": {
+   "verde": "<85%",
+   "amarelo": "85-90",
+   "vermelho": ">90%"
+  },
+  "dados_anuais": {
+   "2018": "80,67%",
+   "2019": "87,20%",
+   "2020": "90%",
+   "2021": "86,70%",
+   "2022": "87,07%",
+   "2023": "85,36%",
+   "2024": "86,21%",
+   "2025": "88,23%"
+  }
+ },
+ {
+  "tema": "GESTÃO DO GASTO PÚBLICO",
+  "subtema": "QUALIDADE DO GASTO PÚBLICO",
+  "id_ces": "177",
+  "id_nova_ordem": null,
+  "id_floripa": "201",
+  "ods": "9.2.5",
+  "orgao_responsavel": "SMF/FNR",
+  "indicador": "Despesas de capital como porcentagem do total de gastos: Percentual de investimentos em ativo fixo (despesas de capital) em relação aos gastos totais",
+  "faixas_semaforizacao": {
+   "verde": ">15",
+   "amarelo": "10-15",
+   "vermelho": "<10"
+  },
+  "dados_anuais": {
+   "2018": "12,39%",
+   "2019": "12,63%",
+   "2020": "16,27%",
+   "2021": "10,00%",
+   "2022": "6,82%",
+   "2023": "14,63%",
+   "2024": "13,79%",
+   "2025": "11,77%"
+  }
+ },
+ {
+  "tema": "GESTÃO DO GASTO PÚBLICO",
+  "subtema": "QUALIDADE DO GASTO PÚBLICO",
+  "id_ces": "178",
+  "id_nova_ordem": null,
+  "id_floripa": "202",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Taxa média de crescimento anual do gasto corrente: Porcentagem de variação no ano dos gastos correntes",
+  "faixas_semaforizacao": {
+   "verde": "< 0",
+   "amarelo": "0 - IPCA",
+   "vermelho": "> IPCA"
+  },
+  "dados_anuais": {
+   "2018": "14,48% (IPCA 3,74%)",
+   "2019": "38,57% (IPCA 4,30%)",
+   "2020": "(-20,35%) - (IPCA 4,51%)",
+   "2021": "14,75% (IPCA 10,06%)",
+   "2022": "23,8% (IPCA 5,78%)",
+   "2023": "16,95% (IPCA 4,62%)",
+   "2024": "4,46% (IPCA 4,83%)",
+   "2025": "18,21% (IPCA 4,26%)"
+  }
+ },
+ {
+  "tema": "GESTÃO DO GASTO PÚBLICO",
+  "subtema": "QUALIDADE DO GASTO PÚBLICO",
+  "id_ces": "179",
+  "id_nova_ordem": null,
+  "id_floripa": "203",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Despesa de pessoal/Receita corrente líquida: percentual da depesas totais (salário + encargos + vales transporte e alimentação + plano de saúde) e de pessoal em relação a receita corrente líquida",
+  "faixas_semaforizacao": {
+   "verde": "< 51,3%",
+   "amarelo": "51,3% a 54%",
+   "vermelho": "> 54%"
+  },
+  "dados_anuais": {
+   "2018": "52,55%",
+   "2019": "48,51%",
+   "2020": "48,68%",
+   "2021": "45,61%",
+   "2022": "45,42%",
+   "2023": "49,53%",
+   "2024": "48,46%",
+   "2025": "44,63%"
+  }
+ },
+ {
+  "tema": "GESTÃO DO GASTO PÚBLICO",
+  "subtema": "QUALIDADE DO GASTO PÚBLICO",
+  "id_ces": "180",
+  "id_nova_ordem": "NOVO",
+  "id_floripa": "204",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Porcentagem das despesas com contratação de pessoal tercerizado (terceiros PJ + PF + locação de mão de obra) em relação a receita total líquida.",
+  "faixas_semaforizacao": {
+   "verde": ">3",
+   "amarelo": "3%-4%",
+   "vermelho": ">4%"
+  },
+  "dados_anuais": {
+   "2018": null,
+   "2019": "4,65%",
+   "2020": "3,33%",
+   "2021": "4,22%",
+   "2022": "4,56%",
+   "2023": "4,73%",
+   "2024": "4,20%",
+   "2025": "3,94%"
+  }
+ },
+ {
+  "tema": "GESTÃO ADEQUADA DA DÍVIDA",
+  "subtema": "SUSTENTABILIDADE DA DÍVIDA",
+  "id_ces": "181",
+  "id_nova_ordem": null,
+  "id_floripa": "205",
+  "ods": "9.2.4",
+  "orgao_responsavel": "SMF/FNR",
+  "indicador": "Crescimento do serviço da dívida: Porcentagem dos juros da dívida em relação a receita própria",
+  "faixas_semaforizacao": {
+   "verde": "< 5%",
+   "amarelo": "5% - 10%",
+   "vermelho": "> 10%"
+  },
+  "dados_anuais": {
+   "2018": "1,44%",
+   "2019": "0,67%",
+   "2020": "0,72%",
+   "2021": "11,00%",
+   "2022": "101,28% no FNR registra 8,63%",
+   "2023": "8,55%",
+   "2024": "3,73%",
+   "2025": "4,18%"
+  }
+ },
+ {
+  "tema": "GESTÃO ADEQUADA DA DÍVIDA",
+  "subtema": "SUSTENTABILIDADE DA DÍVIDA",
+  "id_ces": "182",
+  "id_nova_ordem": null,
+  "id_floripa": "206",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Crescimento da dívida: Porcentagem de crescimento da dívida (Emprestimos de curto e longo prazo)",
+  "faixas_semaforizacao": {
+   "verde": "A taxa de crescimento real anual é negativa",
+   "amarelo": "A taxa de crescimento real anual está entre 0% e 2%",
+   "vermelho": "A taxa de crescimento real anual é superior a 2%"
+  },
+  "dados_anuais": {
+   "2018": "0,93%",
+   "2019": "-0,04%",
+   "2020": "-12,00%",
+   "2021": "14,56%",
+   "2022": "37,74%",
+   "2023": "-4,91%",
+   "2024": "16,94%",
+   "2025": "-12,12%"
+  }
+ },
+ {
+  "tema": "GESTÃO ADEQUADA DA DÍVIDA",
+  "subtema": "LEI DE RESPONSABILIDADE FISCAL",
+  "id_ces": "183",
+  "id_nova_ordem": "L2",
+  "id_floripa": "207",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Dívida consolidada líquida/Receita corrente líquida: Porcentagem da dívida consolidada líquida em relação a receita corrente líquida",
+  "faixas_semaforizacao": {
+   "verde": "< 50%",
+   "amarelo": "50% a 60%",
+   "vermelho": "> 60%"
+  },
+  "dados_anuais": {
+   "2018": "49,75%",
+   "2019": "43,61%",
+   "2020": "36,26%",
+   "2021": "31,82%",
+   "2022": "45,27%",
+   "2023": "24,19%",
+   "2024": "34,75%",
+   "2025": "17,36%"
+  }
+ },
+ {
+  "tema": "GESTÃO ADEQUADA DA DÍVIDA",
+  "subtema": "LEI DE RESPONSABILIDADE FISCAL",
+  "id_ces": "184",
+  "id_nova_ordem": "L3",
+  "id_floripa": "208",
+  "ods": null,
+  "orgao_responsavel": "SMF",
+  "indicador": "Operação de Crédito/Receita Corrente Líquida:Porcentagem do valor das operações de crédito contratadas no ano em relação a receita corrente líquida",
+  "faixas_semaforizacao": {
+   "verde": "Menor 10%",
+   "amarelo": "Entre 10 e 16%",
+   "vermelho": "Acima 16%"
+  },
+  "dados_anuais": {
+   "2018": "1,36%",
+   "2019": "6,22",
+   "2020": "6,50%",
+   "2021": "4,00%",
+   "2022": "10,12%",
+   "2023": "1,97%",
+   "2024": "5,22%",
+   "2025": "2,45%"
+  }
+ }
+]

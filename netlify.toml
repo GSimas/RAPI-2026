@@ -1,0 +1,66 @@
+# ==========================================================
+# Netlify - Dashboard RAPI 2026 (Vite + React + TS)
+# ==========================================================
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Bundler moderno para as functions em TypeScript.
+[functions]
+  node_bundler = "esbuild"
+
+[functions."chat"]
+  # O CSV de indicadores entra na instrução de sistema do assistente.
+  included_files = ["dados_rapi_completo.json"]
+
+# ----------------------------------------------------------
+# Redirecionamentos
+# ----------------------------------------------------------
+
+# Rotas amigáveis para as funções serverless do assistente.
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/modelos"
+  to = "/.netlify/functions/modelos"
+  status = 200
+  force = true
+
+# Fallback de SPA: qualquer rota não encontrada devolve o index.html
+# (inclui o retorno do login OpenRouter em /auth/openrouter).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ----------------------------------------------------------
+# Cabeçalhos
+# ----------------------------------------------------------
+# Assets do Vite têm hash no nome: cache imutável de 1 ano. Brotli/Gzip
+# são negociados automaticamente pela CDN da Netlify (Accept-Encoding).
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+    # Scripts só do próprio site; conexões externas apenas para o login
+    # OpenRouter (PKCE) e para embutir as fontes na exportação PNG.
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://openrouter.ai https://fonts.googleapis.com https://fonts.gstatic.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
