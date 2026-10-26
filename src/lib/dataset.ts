@@ -98,7 +98,7 @@ function normalizarIndicador(bruto: unknown, indice: number): IndicadorRAPI {
 }
 
 /**
- * Base completa de indicadores do RAPI 2025-2026, normalizada uma unica vez
+ * Base completa de indicadores do RAPI 2026, normalizada uma unica vez
  * no carregamento do modulo.
  */
 export const INDICADORES: readonly IndicadorRAPI[] = Array.isArray(brutoJson)

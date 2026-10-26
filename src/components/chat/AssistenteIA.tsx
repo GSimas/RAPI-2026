@@ -1,7 +1,9 @@
 /**
  * ==========================================================
- * Página - Assistente IA (chatbot)
+ * Assistente IA (chatbot) - conteúdo do painel flutuante
  * ==========================================================
+ *
+ * Vive em `<AssistenteFlutuante />`, disponível em todas as páginas.
  *
  * Fluxo:
  *
@@ -17,10 +19,9 @@
  * respostas incompletas não voltam para o modelo.
  */
 
-import { ArrowUpRight, LogOut, RotateCcw } from 'lucide-react';
+import { ArrowUpRight, LogOut, RotateCcw, Sparkles, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useCallback, useEffect, useRef, useState, type JSX } from 'react';
-import { TituloPagina } from '@/components/ui/Titulos';
 import { enviarPergunta, ErroChat, listarModelos, prepararHistorico, type EventoChat, type ModeloIA } from '@/lib/chatApi';
 import { TOTAL_INDICADORES } from '@/lib/total';
 import { concluirLoginOpenRouter, ehRetornoOpenRouter } from '@/lib/ia/pkce';
@@ -28,7 +29,6 @@ import { PROVEDORES } from '@/lib/ia/provedores';
 import { encerrarConexao, lerConexao, salvarConexao, type Conexao } from '@/lib/ia/sessao';
 import { usePreferencias } from '@/hooks/usePreferencias';
 import { EASE_SCIENTATA } from '@/lib/movimento';
-import type { DefinicaoPagina } from '@/lib/navegacao';
 import type { MensagemChat } from '@/types/rapi';
 import { AvisoIA } from './AvisoIA';
 import { BolhaMensagem } from './BolhaMensagem';
@@ -37,8 +37,7 @@ import { ConexaoIA } from './ConexaoIA';
 import { SeletorModelo } from './SeletorModelo';
 
 interface AssistenteIAProps {
-  readonly pagina: DefinicaoPagina;
-  readonly onInicio: () => void;
+  readonly onFechar: () => void;
 }
 
 /** Gera um identificador único para cada mensagem do histórico. */
@@ -47,9 +46,9 @@ function novoId(): string {
 }
 
 /**
- * Página do assistente analítico do RAPI.
+ * Assistente analítico do RAPI.
  */
-export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Element {
+export function AssistenteIA({ onFechar }: AssistenteIAProps): JSX.Element {
   const { t, idioma } = usePreferencias();
   const tc = t.chat;
   const [conexao, setConexao] = useState<Conexao | null>(lerConexao);
@@ -235,8 +234,17 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
   const modeloAtual = modelos.find((m) => m.id === conexao?.modelo);
 
   return (
-    <div>
-      <TituloPagina pagina={pagina} onInicio={onInicio} />
+    <div className="flex h-full flex-col">
+      {/* --- Título do painel -------------------------------------------- */}
+      <div className="flex items-center gap-2 border-b border-line px-4 py-3">
+        <Sparkles aria-hidden="true" className="size-4 text-signal" />
+        <h2 id="titulo-assistente" className="text-sm font-semibold tracking-[-0.01em] text-ink">
+          {tc.flutuante.titulo}
+        </h2>
+        <button type="button" onClick={onFechar} className="botao-icone ml-auto size-8 p-0" aria-label={tc.flutuante.fechar}>
+          <X aria-hidden="true" className="size-4" />
+        </button>
+      </div>
 
       <AnimatePresence mode="wait" initial={false}>
         {!conexao ? (
@@ -245,7 +253,7 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0, transition: { duration: 0.55, ease: EASE_SCIENTATA } }}
             exit={{ opacity: 0, y: -8, transition: { duration: 0.2 } }}
-            className="space-y-6"
+            className="min-h-0 flex-1 space-y-6 overflow-y-auto p-4"
           >
             <AvisoIA />
             <ConexaoIA onConectar={conectar} erroLogin={erroLogin} concluindoLogin={concluindoLogin} />
@@ -256,7 +264,7 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0, transition: { duration: 0.55, ease: EASE_SCIENTATA } }}
             exit={{ opacity: 0, y: -8, transition: { duration: 0.2 } }}
-            className="card flex h-[min(80vh,58rem)] min-h-[32rem] flex-col"
+            className="flex min-h-0 flex-1 flex-col"
           >
             {/* --- Barra do chat ---------------------------------------- */}
             <div className="card-titulo flex-wrap gap-y-2">
@@ -290,7 +298,7 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
                       title={tc.novaTitulo}
                     >
                       <RotateCcw aria-hidden="true" className="size-3 transition-transform duration-500 group-hover:-rotate-180" />
-                      <span className="sr-only sm:not-sr-only">{tc.nova}</span>
+                      <span className="sr-only @md:not-sr-only">{tc.nova}</span>
                     </motion.button>
                   )}
                 </AnimatePresence>
@@ -310,7 +318,7 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
             {/* --- Histórico -------------------------------------------- */}
             <div
               ref={listaRef}
-              className="flex-1 overflow-y-auto px-4 py-6 sm:px-8"
+              className="min-h-0 flex-1 overflow-y-auto px-4 py-6 @lg:px-6"
               role="log"
               aria-live="polite"
               // Enquanto a resposta chega aos pedaços, o leitor de tela espera e lê o texto completo.
@@ -331,7 +339,7 @@ export function AssistenteIA({ pagina, onInicio }: AssistenteIAProps): JSX.Eleme
             </div>
 
             {/* --- Entrada ---------------------------------------------- */}
-            <div className="border-t border-line p-3 sm:p-4">
+            <div className="border-t border-line p-3">
               <div className="mx-auto max-w-3xl">
                 <CampoPergunta onEnviar={perguntar} onParar={parar} carregando={carregando} />
                 <p className="mt-2 text-center text-[0.6875rem] text-faint">
@@ -368,7 +376,7 @@ function Sugestoes({ onSugestao }: { readonly onSugestao: (texto: string) => voi
         initial="inicial"
         animate="visivel"
         variants={{ visivel: { transition: { staggerChildren: 0.07, delayChildren: 0.25 } } }}
-        className="mt-5 grid gap-px border border-line bg-line sm:grid-cols-2"
+        className="mt-5 grid gap-px border border-line bg-line @md:grid-cols-2"
       >
         {tc.sugestoes.map((sugestao, indice) => (
           <motion.li

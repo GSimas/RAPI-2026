@@ -15,7 +15,7 @@
 export type Idioma = 'pt' | 'en';
 
 const pt = {
-  documento: { titulo: 'RAPI 2025-2026 · Florianópolis em indicadores' },
+  documento: { titulo: 'RAPI 2026 · Florianópolis em indicadores' },
 
   cabecalho: {
     marcaRotulo: 'Florianópolis · Indicadores · IA',
@@ -151,7 +151,7 @@ const pt = {
       titulo: 'Como a cidade',
       destaque: 'está.',
       texto: (n: number) =>
-        `Numa visão geral, os ${n} indicadores de 2025-2026 foram classificados da seguinte forma:`,
+        `Numa visão geral, os ${n} indicadores do RAPI 2026 foram classificados da seguinte forma:`,
     },
     grafico: {
       titulo: 'Evolução histórica da semaforização',
@@ -163,7 +163,7 @@ const pt = {
   rodape: {
     voltarTopo: 'Voltar ao topo',
     fonte: 'Fonte de dados',
-    relatorio: 'Relatório Anual de Progresso dos Indicadores 2025-2026',
+    relatorio: 'Relatório Anual de Progresso dos Indicadores 2026',
     entidades: 'Associação FloripAmanhã, UFSC e Observatório Social do Brasil (Florianópolis).',
     acessar: 'Acessar o relatório',
     desenvolvido: 'Desenvolvido por',
@@ -209,7 +209,7 @@ const pt = {
     subabas: { grafico: 'Evolução histórica', regras: 'Regras de semaforização', dados: 'Dados brutos' },
     evolucao: 'Evolução histórica',
     notaGrafico:
-      'A cor de cada barra reflete a regra de semaforização aplicada ao valor daquele ano. A linha tracejada indica a tendência da série. Fonte: RAPI 2025-2026.',
+      'A cor de cada barra reflete a regra de semaforização aplicada ao valor daquele ano. A linha tracejada indica a tendência da série. Fonte: RAPI 2026.',
     semGrafico: 'Não foi possível gerar o gráfico de tendência. Valores em formato de texto ou ND.',
     semRegras: 'Nenhuma regra de semaforização cadastrada para este indicador.',
     criterioGeral: 'Critério geral',
@@ -229,8 +229,8 @@ const pt = {
 
   explorador: {
     legenda:
-      'Base completa dos indicadores do RAPI 2025-2026, com valores originais e numéricos por ano e as faixas de semaforização.',
-    planilha: 'Indicadores RAPI 2025-2026',
+      'Base completa dos indicadores do RAPI 2026, com valores originais e numéricos por ano e as faixas de semaforização.',
+    planilha: 'Indicadores RAPI 2026',
     nota:
       'Clique no título de uma coluna para ordenar (crescente → decrescente → original) e no funil para filtrar. A exportação em CSV ou Excel respeita a busca, os filtros e a ordenação vigentes.',
     colunas: {
@@ -310,7 +310,7 @@ const pt = {
     s8: { rotulo: 'Seção 8 · Considerações finais', titulo: 'Para onde a cidade', destaque: 'caminha.' },
     s9: { rotulo: 'Seção 9 · Agradecimentos e créditos', titulo: 'Quem fez o', destaque: 'relatório.' },
     temas: (n: number) => `${n} temas`,
-    grupoTrabalho: 'Grupo de Trabalho de Indicadores · RAPI 2025-2026',
+    grupoTrabalho: 'Grupo de Trabalho de Indicadores · RAPI 2026',
     prefixoTema: /^Tema:\s*/,
   },
 
@@ -329,6 +329,11 @@ const pt = {
   },
 
   chat: {
+    flutuante: {
+      abrir: 'Abrir o assistente de IA',
+      fechar: 'Fechar o assistente',
+      titulo: 'Consultor RAPI',
+    },
     sugestoes: [
       'Qual o valor do consumo de água em 2025 e o que o relatório recomenda?',
       'Quais indicadores de saneamento estão em situação crítica?',
@@ -384,7 +389,7 @@ const pt = {
       titulo: 'Aviso de transparência · ISO/IEC 42001',
       ola: 'Olá! Você está conversando com um',
       sistemaIA: 'sistema de Inteligência Artificial',
-      olaFim: ', não com uma pessoa. Eu ajudo a consultar os dados e o texto do RAPI 2025-2026 de Florianópolis.',
+      olaFim: ', não com uma pessoa. Eu ajudo a consultar os dados e o texto do RAPI 2026 de Florianópolis.',
       modelo: 'Modelo:',
       modeloAntes: 'respostas geradas por',
       modeloDepois: (provedor: string) => `via ${provedor}, escolhido por você.`,
@@ -463,7 +468,7 @@ const pt = {
 export type Textos = typeof pt;
 
 const en: Textos = {
-  documento: { titulo: 'RAPI 2025-2026 · Florianópolis in indicators' },
+  documento: { titulo: 'RAPI 2026 · Florianópolis in indicators' },
 
   cabecalho: {
     marcaRotulo: 'Florianópolis · Indicators · AI',
@@ -596,7 +601,7 @@ const en: Textos = {
       rotulo: 'Section 5 · Traffic-light ratings',
       titulo: 'How the city',
       destaque: 'is doing.',
-      texto: (n: number) => `Overall, the ${n} indicators of 2025-2026 were rated as follows:`,
+      texto: (n: number) => `Overall, the ${n} RAPI 2026 indicators were rated as follows:`,
     },
     grafico: {
       titulo: 'Traffic-light ratings over time',
@@ -608,7 +613,7 @@ const en: Textos = {
   rodape: {
     voltarTopo: 'Back to top',
     fonte: 'Data source',
-    relatorio: 'Annual Indicator Progress Report (RAPI) 2025-2026',
+    relatorio: 'Annual Indicator Progress Report (RAPI) 2026',
     entidades: 'Associação FloripAmanhã, UFSC and Observatório Social do Brasil (Florianópolis).',
     acessar: 'Read the report',
     desenvolvido: 'Developed by',
@@ -655,7 +660,7 @@ const en: Textos = {
     subabas: { grafico: 'Time series', regras: 'Rating rules', dados: 'Raw data' },
     evolucao: 'Time series',
     notaGrafico:
-      'Each bar is colored by the rating rule applied to that year\'s value. The dashed line shows the series trend. Source: RAPI 2025-2026.',
+      'Each bar is colored by the rating rule applied to that year\'s value. The dashed line shows the series trend. Source: RAPI 2026.',
     semGrafico: 'The trend chart could not be generated. Values are text or not available (ND).',
     semRegras: 'No rating rule is registered for this indicator.',
     criterioGeral: 'General criterion',
@@ -675,8 +680,8 @@ const en: Textos = {
 
   explorador: {
     legenda:
-      'Full dataset of the RAPI 2025-2026 indicators, with original and numeric values per year and the rating ranges.',
-    planilha: 'RAPI 2025-2026 indicators',
+      'Full dataset of the RAPI 2026 indicators, with original and numeric values per year and the rating ranges.',
+    planilha: 'RAPI 2026 indicators',
     nota:
       'Click a column title to sort (ascending → descending → original) and the funnel to filter. CSV or Excel export follows the current search, filters and sorting.',
     colunas: {
@@ -756,7 +761,7 @@ const en: Textos = {
     s8: { rotulo: 'Section 8 · Final remarks', titulo: 'Where the city', destaque: 'is heading.' },
     s9: { rotulo: 'Section 9 · Acknowledgements and credits', titulo: 'Who made the', destaque: 'report.' },
     temas: (n: number) => `${n} themes`,
-    grupoTrabalho: 'Indicators Working Group · RAPI 2025-2026',
+    grupoTrabalho: 'Indicators Working Group · RAPI 2026',
     prefixoTema: /^Theme:\s*/,
   },
 
@@ -775,6 +780,11 @@ const en: Textos = {
   },
 
   chat: {
+    flutuante: {
+      abrir: 'Open the AI assistant',
+      fechar: 'Close the assistant',
+      titulo: 'RAPI Advisor',
+    },
     sugestoes: [
       'What was water consumption in 2025 and what does the report recommend?',
       'Which sanitation indicators are in a critical situation?',
@@ -830,7 +840,7 @@ const en: Textos = {
       titulo: 'Transparency notice · ISO/IEC 42001',
       ola: 'Hello! You are talking to an',
       sistemaIA: 'Artificial Intelligence system',
-      olaFim: ', not a person. I help you query the data and text of the RAPI 2025-2026 report on Florianópolis.',
+      olaFim: ', not a person. I help you query the data and text of the RAPI 2026 report on Florianópolis.',
       modelo: 'Model:',
       modeloAntes: 'answers generated by',
       modeloDepois: (provedor: string) => `via ${provedor}, chosen by you.`,

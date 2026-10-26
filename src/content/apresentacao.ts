@@ -3,7 +3,7 @@
  * Conteudo editorial da aba "Apresentacao"
  * ==========================================================
  *
- * Texto transposto das Secoes 1 a 5 do RAPI 2025-2026. Mantido como dado
+ * Texto transposto das Secoes 1 a 5 do RAPI 2026. Mantido como dado
  * (e nao como JSX) para que a camada de apresentacao permaneca puramente
  * declarativa.
  *

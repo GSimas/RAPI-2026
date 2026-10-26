@@ -54,7 +54,7 @@ function Lembrar({ valor, onChange }: { readonly valor: boolean; readonly onChan
  */
 export function ConexaoIA({ onConectar, erroLogin, concluindoLogin = false }: ConexaoIAProps): JSX.Element {
   return (
-    <div className="grid gap-px border border-line bg-line lg:grid-cols-[1.15fr_1fr]">
+    <div className="grid gap-px border border-line bg-line @3xl:grid-cols-[1.15fr_1fr]">
       <OpcaoOpenRouter erroLogin={erroLogin ?? null} concluindo={concluindoLogin} />
       <OpcaoByok onConectar={onConectar} />
     </div>
@@ -89,7 +89,7 @@ function OpcaoOpenRouter({ erroLogin, concluindo }: { readonly erroLogin: string
     <section
       aria-labelledby="titulo-openrouter"
       data-brilho
-      className="relative flex flex-col bg-surface p-6 shadow-[inset_0_2px_0_var(--signal-fill)] [--brilho-forca:0.1] [--brilho-raio:480px] sm:p-8"
+      className="relative flex flex-col bg-surface p-6 shadow-[inset_0_2px_0_var(--signal-fill)] [--brilho-forca:0.1] [--brilho-raio:480px] @lg:p-8"
     >
       <div className="flex flex-wrap items-center gap-2">
         <span className="chip border-signal/50 text-signal">
@@ -118,7 +118,7 @@ function OpcaoOpenRouter({ erroLogin, concluindo }: { readonly erroLogin: string
       <div className="mt-auto space-y-4 pt-8">
         <Lembrar valor={lembrar} onChange={setLembrar} />
 
-        <button type="button" onClick={() => void entrar()} disabled={ocupado} className="botao-primario group w-full sm:w-auto">
+        <button type="button" onClick={() => void entrar()} disabled={ocupado} className="botao-primario group w-full @md:w-auto">
           {ocupado ? (
             <LoaderCircle aria-hidden="true" className="size-4 animate-spin" />
           ) : (
@@ -188,7 +188,7 @@ function OpcaoByok({ onConectar }: { readonly onConectar: ConexaoIAProps['onCone
   };
 
   return (
-    <section aria-labelledby="titulo-byok" className="flex flex-col bg-surface/70 p-6 sm:p-8">
+    <section aria-labelledby="titulo-byok" className="flex flex-col bg-surface/70 p-6 @lg:p-8">
       <span className="chip self-start">{tc.byok}</span>
 
       <h2 id="titulo-byok" className="mt-6 text-2xl leading-tight font-semibold tracking-[-0.025em] text-ink">
@@ -201,7 +201,7 @@ function OpcaoByok({ onConectar }: { readonly onConectar: ConexaoIAProps['onCone
       <form onSubmit={(evento) => void conectar(evento)} className="mt-6 flex flex-1 flex-col gap-5" autoComplete="off">
         <fieldset>
           <legend className="rotulo mb-2">{tc.provedor}</legend>
-          <div className="grid grid-cols-2 gap-1.5 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-1.5 @md:grid-cols-4">
             {PROVEDORES_BYOK.map((opcao) => {
               const ativo = opcao.id === provedor;
               return (
@@ -268,7 +268,7 @@ function OpcaoByok({ onConectar }: { readonly onConectar: ConexaoIAProps['onCone
         <Lembrar valor={lembrar} onChange={setLembrar} />
 
         <div className="mt-auto space-y-3">
-          <button type="submit" disabled={validando || chave.trim() === ''} className="botao-secundario w-full sm:w-auto">
+          <button type="submit" disabled={validando || chave.trim() === ''} className="botao-secundario w-full @md:w-auto">
             {validando ? <LoaderCircle aria-hidden="true" className="size-4 animate-spin" /> : <Lock aria-hidden="true" className="size-4" />}
             {validando ? tc.validando : tc.validar}
           </button>

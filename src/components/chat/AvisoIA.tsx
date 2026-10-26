@@ -37,7 +37,7 @@ export function AvisoIA({ provedor, modelo }: AvisoIAProps): JSX.Element {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: EASE_SCIENTATA }}
-      className="border border-signal/35 bg-signal/[0.06] p-4 sm:p-5"
+      className="border border-signal/35 bg-signal/[0.06] p-4 @lg:p-5"
     >
       <p id="titulo-aviso-ia" className="rotulo flex items-center gap-2 text-signal">
         <ShieldCheck aria-hidden="true" className="size-3.5" />

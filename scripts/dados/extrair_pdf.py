@@ -1,5 +1,5 @@
 """
-Gera `dados_rapi_completo.json` a partir da Seção 6 do PDF do RAPI 2025-2026.
+Gera `dados_rapi_completo.json` a partir da Seção 6 do PDF do RAPI 2026.
 
     pip install pdfplumber
     python3 scripts/dados/extrair_pdf.py docs/1791562090247rapi-25-26-compactado.pdf

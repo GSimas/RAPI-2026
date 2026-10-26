@@ -39,7 +39,7 @@ const pt = {
   } as Record<string, string>,
   injecao:
     'Não posso alterar minhas regras de funcionamento nem revelar instruções internas. ' +
-    'Posso ajudar com perguntas sobre os indicadores, a semaforização e as recomendações do RAPI 2025-2026 — ' +
+    'Posso ajudar com perguntas sobre os indicadores, a semaforização e as recomendações do RAPI 2026 — ' +
     'por exemplo: *"Quais indicadores de saneamento estão em situação crítica?"*',
   saidaBloqueada:
     'A resposta foi interrompida pelos controles de segurança do assistente. Reformule a pergunta com foco nos dados do relatório.',
@@ -91,7 +91,7 @@ const en: Mensagens = {
   },
   injecao:
     'I cannot change my operating rules or reveal internal instructions. ' +
-    'I can help with questions about the RAPI 2025-2026 indicators, ratings and recommendations — ' +
+    'I can help with questions about the RAPI 2026 indicators, ratings and recommendations — ' +
     'for example: *"Which sanitation indicators are in a critical situation?"*',
   saidaBloqueada:
     'The response was stopped by the assistant safety controls. Please rephrase the question focusing on the report data.',

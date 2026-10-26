@@ -90,6 +90,8 @@ export function SeletorModelo({ modelos, valor, onChange, carregando = false, de
       const alvo = filtrados[ativo];
       if (alvo) escolher(alvo.id);
     } else if (evento.key === 'Escape') {
+      // Fecha só a lista, não o painel do assistente.
+      evento.preventDefault();
       setAberto(false);
     }
   };

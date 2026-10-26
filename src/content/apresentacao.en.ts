@@ -3,7 +3,7 @@
  * Conteúdo da página inicial — versão em inglês
  * ==========================================================
  *
- * Tradução livre das Seções 1 a 5 do RAPI 2025-2026. Mesma forma de
+ * Tradução livre das Seções 1 a 5 do RAPI 2026. Mesma forma de
  * `apresentacao.ts`; os dados numéricos (Tabela 5.1) são compartilhados.
  */
 

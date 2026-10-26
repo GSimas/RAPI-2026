@@ -130,7 +130,7 @@ export function cabecalhosAutenticacao(provedor: Provedor, chave: string, origem
   // Atribuição recomendada pela OpenRouter para identificar o app.
   if (provedor.id === 'openrouter') {
     cabecalhos['HTTP-Referer'] = origem;
-    cabecalhos['X-Title'] = 'RAPI 2025-2026 - Florianopolis';
+    cabecalhos['X-Title'] = 'RAPI 2026 - Florianopolis';
   }
 
   return cabecalhos;

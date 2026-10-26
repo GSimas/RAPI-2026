@@ -4,7 +4,7 @@
  * ==========================================================
  *
  * Transposicao das Secoes 7 (Consideracoes e Recomendacoes), 8
- * (Consideracoes Finais) e 9 (Agradecimentos e Creditos) do RAPI 2025-2026.
+ * (Consideracoes Finais) e 9 (Agradecimentos e Creditos) do RAPI 2026.
  *
  * O conteudo e modelado como dado estruturado — e nao como blocos de HTML,
  * como no `st.markdown(..., unsafe_allow_html=True)` original — para que a
@@ -315,7 +315,7 @@ export interface InstituicaoGT {
   readonly integrantes: string;
 }
 
-/** Grupo de Trabalho de Indicadores (RAPI 2025-2026). */
+/** Grupo de Trabalho de Indicadores (RAPI 2026). */
 export const GRUPO_TRABALHO: readonly InstituicaoGT[] = [
   {
     instituicao: 'Associação FloripAmanhã',

@@ -3,8 +3,9 @@
  * <App /> - casca da aplicação
  * ==========================================================
  *
- * Monta o layout (fundo + cabeçalho + página + rodapé) e controla qual
- * das cinco páginas está visível. A página ativa é refletida no hash da
+ * Monta o layout (fundo + cabeçalho + página + rodapé + assistente
+ * flutuante) e controla qual das quatro páginas está visível. O assistente
+ * não é uma página: `navegar('assistente')` só abre o painel flutuante. A página ativa é refletida no hash da
  * URL, tornando cada seção compartilhável e navegável pelo histórico.
  *
  * A troca de página é animada: a página atual sai desfocando e a nova
@@ -23,6 +24,7 @@ import { lazy, Suspense, useCallback, useEffect, useRef, useState, type JSX, typ
 import { Cabecalho } from '@/components/layout/Cabecalho';
 import { Fundo } from '@/components/layout/Fundo';
 import { Rodape } from '@/components/layout/Rodape';
+import { AssistenteFlutuante } from '@/components/chat/AssistenteFlutuante';
 import { Apresentacao } from '@/components/apresentacao/Apresentacao';
 import { LimiteErro } from '@/components/ui/LimiteErro';
 import { usePreferencias } from '@/hooks/usePreferencias';
@@ -41,11 +43,16 @@ const CARREGAR = {
 const Dashboard = lazy(() => CARREGAR.dashboard().then((m) => ({ default: m.Dashboard })));
 const Relatorio = lazy(() => CARREGAR.relatorio().then((m) => ({ default: m.Relatorio })));
 const Explorador = lazy(() => CARREGAR.explorador().then((m) => ({ default: m.Explorador })));
-const AssistenteIA = lazy(() => CARREGAR.assistente().then((m) => ({ default: m.AssistenteIA })));
 
 /** Começa a baixar o chunk de uma página (sem esperar). */
 function preCarregar(id: IdPagina): void {
   if (id in CARREGAR) void CARREGAR[id as keyof typeof CARREGAR]().catch(() => undefined);
+}
+
+/** Página indicada pelo hash; `#assistente` abre o painel sobre o Início. */
+function paginaInicial(): IdPagina {
+  const id = paginaDoHash();
+  return id === 'assistente' ? 'apresentacao' : id;
 }
 
 /**
@@ -53,9 +60,10 @@ function preCarregar(id: IdPagina): void {
  */
 export function App(): JSX.Element {
   const { t, tema, reduzirMovimento } = usePreferencias();
+  const [paginaAtiva, setPaginaAtiva] = useState<IdPagina>(paginaInicial);
   // O retorno do login OpenRouter (`/auth/openrouter`) abre direto no Assistente.
-  const [paginaAtiva, setPaginaAtiva] = useState<IdPagina>(() =>
-    ehRetornoOpenRouter() ? 'assistente' : paginaDoHash(),
+  const [assistenteAberto, setAssistenteAberto] = useState(
+    () => ehRetornoOpenRouter() || paginaDoHash() === 'assistente',
   );
   const rolarAoTopo = useRef(false);
   const refMain = useRef<HTMLElement>(null);
@@ -90,9 +98,13 @@ export function App(): JSX.Element {
   // Mantém a página sincronizada com os botões voltar/avançar do navegador.
   useEffect(() => {
     const aoMudarHash = (): void => {
+      if (paginaDoHash() === 'assistente') {
+        setAssistenteAberto(true);
+        return;
+      }
       rolarAoTopo.current = true;
       setAnunciar(true);
-      setPaginaAtiva(paginaDoHash());
+      setPaginaAtiva(paginaInicial());
     };
     window.addEventListener('hashchange', aoMudarHash);
     return () => window.removeEventListener('hashchange', aoMudarHash);
@@ -100,6 +112,10 @@ export function App(): JSX.Element {
 
   const navegar = useCallback(
     (id: IdPagina) => {
+      if (id === 'assistente') {
+        setAssistenteAberto(true);
+        return;
+      }
       if (id === paginaAtiva) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         return;
@@ -178,7 +194,6 @@ export function App(): JSX.Element {
                   )}
                   {paginaAtiva === 'relatorio' && <Relatorio pagina={pagina} onInicio={irAoInicio} />}
                   {paginaAtiva === 'explorador' && <Explorador pagina={pagina} onInicio={irAoInicio} />}
-                  {paginaAtiva === 'assistente' && <AssistenteIA pagina={pagina} onInicio={irAoInicio} />}
                 </Suspense>
               </LimiteErro>
             </motion.div>
@@ -187,6 +202,8 @@ export function App(): JSX.Element {
 
         <Rodape />
       </div>
+
+      <AssistenteFlutuante aberto={assistenteAberto} onAlternar={setAssistenteAberto} />
     </MotionConfig>
   );
 }

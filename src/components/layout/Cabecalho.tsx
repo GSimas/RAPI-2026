@@ -12,7 +12,7 @@
  * sinalizando a transição.
  */
 
-import { ArrowUpRight, Menu, Sparkles, X } from 'lucide-react';
+import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useEffect, useState, type JSX } from 'react';
 import { usePreferencias } from '@/hooks/usePreferencias';
@@ -26,7 +26,7 @@ interface CabecalhoProps {
   readonly onNavegar: (id: IdPagina) => void;
 }
 
-/** Páginas listadas no menu (o Assistente tem botão próprio). */
+/** Páginas listadas no menu (o Assistente é o botão flutuante). */
 const PAGINAS_MENU = PAGINAS.filter((pagina) => pagina.id !== 'assistente');
 
 /**
@@ -69,7 +69,7 @@ export function Cabecalho({ ativa, onNavegar }: CabecalhoProps): JSX.Element {
               {t.cabecalho.marcaRotulo}
             </span>
             <span className="mt-1 text-[0.9375rem] font-bold tracking-[-0.02em] text-ink">
-              RAPI <span className="serif text-base font-normal text-signal">2025–26</span>
+              RAPI <span className="serif text-base font-normal text-signal">2026</span>
               {/* O nome acessível começa pelo texto visível (WCAG 2.5.3). */}
               <span className="sr-only"> — {t.cabecalho.irInicio}</span>
             </span>
@@ -112,23 +112,6 @@ export function Cabecalho({ ativa, onNavegar }: CabecalhoProps): JSX.Element {
         {/* --- Ações ------------------------------------------------- */}
         <div className="ml-auto flex items-center gap-1.5 sm:gap-2">
           <PainelPreferencias />
-
-          <a
-            href="#assistente"
-            aria-current={ativa === 'assistente' ? 'page' : undefined}
-            onClick={(evento) => {
-              evento.preventDefault();
-              navegar('assistente');
-            }}
-            className="botao-primario group px-3 py-2 sm:px-4"
-          >
-            <Sparkles
-              aria-hidden="true"
-              className="size-4 transition-transform duration-500 ease-scientata group-hover:rotate-12 group-hover:scale-110"
-            />
-            {/* Visualmente oculto no celular, mas sempre nomeia o link. */}
-            <span className="sr-only sm:not-sr-only">{t.cabecalho.assistente}</span>
-          </a>
 
           <button
             type="button"

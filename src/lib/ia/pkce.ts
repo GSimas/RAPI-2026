@@ -66,7 +66,7 @@ export async function iniciarLoginOpenRouter(lembrar: boolean): Promise<void> {
   url.searchParams.set('code_challenge', desafio);
   url.searchParams.set('code_challenge_method', 'S256');
   url.searchParams.set('state', state);
-  url.searchParams.set('key_label', 'RAPI 2025-2026 - Florianopolis');
+  url.searchParams.set('key_label', 'RAPI 2026 - Florianopolis');
 
   window.location.assign(url.toString());
 }

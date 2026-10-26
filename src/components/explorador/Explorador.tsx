@@ -44,7 +44,7 @@ export function Explorador({ pagina, onInicio }: ExploradorProps): JSX.Element {
           linhas={INDICADORES}
           chaveLinha={(indicador) => indicador.id}
           legenda={te.legenda}
-          nomeArquivo="rapi-2025-2026-indicadores"
+          nomeArquivo="rapi-2026-indicadores"
           tituloPlanilha={te.planilha}
           buscaGlobal
         />

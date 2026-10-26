@@ -1,6 +1,6 @@
 /**
  * ==========================================================
- * Contratos de dados do RAPI 2025-2026
+ * Contratos de dados do RAPI 2026
  * ==========================================================
  *
  * Estas interfaces espelham a estrutura de `dados_rapi_completo.json`

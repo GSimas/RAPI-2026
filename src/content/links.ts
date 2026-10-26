@@ -8,7 +8,7 @@
 
 /**
  * Link do relatorio publicado pela FloripAmanha.
- * TODO: trocar pela pagina do RAPI 2025-2026 quando for publicada
+ * TODO: trocar pela pagina do RAPI 2026 quando for publicada
  * (a de 2025 e materiais.floripamanha.org/rapi-relatorio-anual-progresso-indicadores-25).
  */
 export const LINK_RELATORIO = 'https://floripamanha.org/';

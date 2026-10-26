@@ -1,4 +1,4 @@
-# Dashboard RAPI 2025-2026 · Florianópolis
+# Dashboard RAPI 2026 · Florianópolis
 
 Aplicação web (SPA) que dá visibilidade aos **208 indicadores** do Relatório Anual de
 Progresso dos Indicadores (RAPI) de Florianópolis — 10ª edição, baseada na metodologia do
@@ -8,7 +8,7 @@ Construída com **Vite + React + TypeScript + Tailwind CSS**, com backend server
 **Netlify Functions**.
 
 > Réplica do [dashboard RAPI 2024-2025](https://github.com/GSimas/RAPI-2025) com dados e textos
-> atualizados para a edição 2025-2026 (série histórica de 2018 a 2025).
+> atualizados para o RAPI 2026 (série histórica de 2018 a 2025).
 
 ---
 
@@ -32,7 +32,7 @@ Construída com **Vite + React + TypeScript + Tailwind CSS**, com backend server
 ```
 .
 ├── dados_rapi_completo.json        # Base dos 208 registros (fonte única)
-├── docs/                           # PDF original do RAPI 2025-2026
+├── docs/                           # PDF original do RAPI 2026
 ├── index.html                      # Entrada da SPA (+ script anti-flash de tema)
 ├── netlify.toml                    # Build, functions e redirects
 ├── .env.example                    # Variáveis de ambiente documentadas
@@ -175,7 +175,7 @@ Passos:
 
 ---
 
-## As cinco abas
+## As quatro abas e o assistente
 
 | Aba                     | Conteúdo                                                                                 |
 | ----------------------- | ---------------------------------------------------------------------------------------- |
@@ -183,7 +183,7 @@ Passos:
 | 📊 Dashboard Interativo | Filtros encadeados, cartões de métricas, evolução histórica, faixas e dados brutos        |
 | 📝 Relatório e Análises | Seções 7, 8 e 9 — considerações, recomendações e créditos                                  |
 | 🗂️ Explorador Geral     | Tabela dos 208 registros com busca global, filtros por coluna, ordenação e exportação     |
-| 🤖 Assistente IA        | Chat em streaming sobre os indicadores e o texto do relatório (OpenRouter ou BYOK)        |
+| 🤖 Assistente IA        | Botão flutuante (canto inferior direito) em todas as páginas: chat em streaming sobre os indicadores e o texto do relatório (OpenRouter ou BYOK) |
 
 Todos os gráficos têm botão **PNG**; todas as tabelas têm filtro por coluna conforme o tipo
 (texto, categoria, número, data), ordenação por coluna e exportação **CSV** ou **Excel (XLSX)**
@@ -289,7 +289,7 @@ enxuto dos indicadores. Isso mantém o consumo baixo — inclusive nos modelos g
 
 ## Fonte e créditos
 
-- Dados originais extraídos do Relatório RAPI 2025-2026 (`docs/`)
+- Dados originais extraídos do Relatório RAPI 2026 (`docs/`)
   — Associação FloripAmanhã, UFSC e Observatório Social do Brasil (Florianópolis).
 - Orgulhosamente desenvolvida por
   [Gustavo Simas da Silva](https://www.linkedin.com/in/simasgs/).

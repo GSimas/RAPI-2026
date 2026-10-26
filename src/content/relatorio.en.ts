@@ -3,7 +3,7 @@
  * Conteúdo da página "Relatório" — versão em inglês
  * ==========================================================
  *
- * Tradução livre das Seções 7, 8 e 9 do RAPI 2025-2026. Mesma forma de
+ * Tradução livre das Seções 7, 8 e 9 do RAPI 2026. Mesma forma de
  * `relatorio.ts`. Nomes de pessoas e instituições não são traduzidos.
  */
 

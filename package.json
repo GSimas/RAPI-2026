@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "description": "Dashboard RAPI 2025-2026 - Relatorio Anual de Progresso dos Indicadores de Florianopolis",
+  "description": "Dashboard RAPI 2026 - Relatorio Anual de Progresso dos Indicadores de Florianopolis",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
