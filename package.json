@@ -1,0 +1,43 @@
+{
+  "name": "rapi-dashboard",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Dashboard RAPI 2025-2026 - Relatorio Anual de Progresso dos Indicadores de Florianopolis",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --force",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "auditoria": "npm run auditoria:bundle && npm run auditoria:axe && npm run auditoria:layout && npm run auditoria:funcional",
+    "auditoria:bundle": "node scripts/auditoria/bundle.mjs",
+    "auditoria:axe": "node scripts/auditoria/axe.mjs",
+    "auditoria:layout": "node scripts/auditoria/layout.mjs",
+    "auditoria:funcional": "node scripts/auditoria/funcional.mjs",
+    "auditoria:inp": "node scripts/auditoria/inp.mjs",
+    "auditoria:lighthouse": "node scripts/auditoria/lighthouse.mjs"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^1.52.0",
+    "motion": "^14.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "axe-core": "^4.14.0",
+    "puppeteer-core": "^25.12.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0"
+  }
+}
