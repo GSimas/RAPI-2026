@@ -97,7 +97,8 @@ export function SeletorModelo({ modelos, valor, onChange, carregando = false, de
   };
 
   return (
-    <div ref={refRaiz} className="relative min-w-0">
+    // Sem `relative`: a lista se ancora na barra do painel e ocupa a largura dela.
+    <div ref={refRaiz} className="min-w-0">
       <button
         type="button"
         onClick={() => {
@@ -107,15 +108,12 @@ export function SeletorModelo({ modelos, valor, onChange, carregando = false, de
         disabled={desabilitado || carregando}
         aria-haspopup="listbox"
         aria-expanded={aberto}
-        className="flex w-full max-w-[19rem] min-w-0 items-center gap-2 border border-line-forte px-2.5 py-1.5 text-left normal-case tracking-normal hover:border-signal/50 disabled:opacity-50"
+        className="flex w-full min-w-0 items-center gap-2 border border-line-forte px-2.5 py-1 text-left normal-case tracking-normal hover:border-signal/50 disabled:opacity-50"
       >
         <span className="min-w-0 flex-1">
           <span className="block truncate font-sans text-xs font-semibold text-ink">
             {carregando ? ts.carregando : (atual?.nome ?? valor)}
           </span>
-          {atual && atual.nome !== atual.id && (
-            <span className="block truncate font-mono text-[0.625rem] text-faint">{atual.id}</span>
-          )}
         </span>
         {atual?.gratis && <span className="chip shrink-0 border-signal/40 text-[0.5625rem] text-signal">{ts.gratis}</span>}
         <ChevronsUpDown aria-hidden="true" className="size-3.5 shrink-0 text-faint" />
@@ -128,7 +126,7 @@ export function SeletorModelo({ modelos, valor, onChange, carregando = false, de
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -4, scale: 0.98, transition: { duration: 0.15 } }}
             transition={{ duration: 0.3, ease: EASE_SCIENTATA }}
-            className="absolute top-full right-0 z-40 mt-2 w-[min(24rem,calc(100vw-2rem))] origin-top-right border border-line-forte bg-elevated normal-case tracking-normal shadow-[0_24px_60px_-20px_rgba(0,0,0,0.55)]"
+            className="absolute inset-x-2 top-full z-40 mt-1 origin-top border border-line-forte bg-elevated normal-case tracking-normal shadow-[0_24px_60px_-20px_rgba(0,0,0,0.55)]"
           >
             <div className="space-y-2 border-b border-line p-3">
               <div className="relative">

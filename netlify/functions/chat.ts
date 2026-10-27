@@ -218,7 +218,8 @@ export default async function handler(request: Request): Promise<Response> {
           emitir({ tipo: 'delta', texto: evento.texto });
         }
 
-        if (!acumulado && !controlador.signal.aborted) {
+        // Modelos de raciocínio às vezes só devolvem quebras de linha como conteúdo.
+        if (!acumulado.trim() && !controlador.signal.aborted) {
           emitir({ tipo: 'erro', mensagem: m.semConteudo });
         }
         emitir({ tipo: 'fim' });
