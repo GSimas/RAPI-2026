@@ -181,7 +181,7 @@ export function AssistenteIA({ onFechar }: AssistenteIAProps): JSX.Element {
             break;
           case 'erro':
             atualizar(idResposta, (m) =>
-              m.content
+              m.content.trim()
                 ? { ...m, avisos: [...(m.avisos ?? []), evento.mensagem], erro: true }
                 : { ...m, content: evento.mensagem, erro: true },
             );
@@ -202,7 +202,7 @@ export function AssistenteIA({ onFechar }: AssistenteIAProps): JSX.Element {
         atualizar(idResposta, (m) =>
           interrompida
             ? { ...m, avisos: [...(m.avisos ?? []), tc.interrompidaPorVoce], erro: m.content === '', content: m.content || tc.interrompida }
-            : m.content
+            : m.content.trim()
               ? { ...m, avisos: [...(m.avisos ?? []), mensagem], erro: true }
               : { ...m, content: mensagem, erro: true },
         );
@@ -235,13 +235,36 @@ export function AssistenteIA({ onFechar }: AssistenteIAProps): JSX.Element {
 
   return (
     <div className="flex h-full flex-col">
-      {/* --- Título do painel -------------------------------------------- */}
-      <div className="flex items-center gap-2 border-b border-line px-4 py-3">
-        <Sparkles aria-hidden="true" className="size-4 text-signal" />
-        <h2 id="titulo-assistente" className="text-sm font-semibold tracking-[-0.01em] text-ink">
+      {/* --- Barra do painel: título (ou modelo) e ações numa linha só ---- */}
+      <div className="relative flex items-center gap-1 border-b border-line py-2 pr-2 pl-3">
+        <Sparkles aria-hidden="true" className="size-4 shrink-0 text-signal" />
+        <h2 id="titulo-assistente" className={conexao ? 'sr-only' : 'ml-1 text-sm font-semibold tracking-[-0.01em] text-ink'}>
           {tc.flutuante.titulo}
         </h2>
-        <button type="button" onClick={onFechar} className="botao-icone ml-auto size-8 p-0" aria-label={tc.flutuante.fechar}>
+
+        {conexao && (
+          <>
+            <div className="ml-1 min-w-0 flex-1" title={`${nomeProvedor} · ${conexao.origem === 'pkce' ? tc.login : 'BYOK'}`}>
+              <SeletorModelo
+                modelos={modelos.length > 0 ? modelos : [{ id: conexao.modelo, nome: conexao.modelo }]}
+                valor={conexao.modelo}
+                onChange={trocarModelo}
+                carregando={carregandoModelos && modelos.length === 0}
+                desabilitado={carregando}
+              />
+            </div>
+            {mensagens.length > 0 && (
+              <button type="button" onClick={novaConversa} className="botao-icone group size-8 shrink-0 p-0" title={tc.novaTitulo} aria-label={tc.novaTitulo}>
+                <RotateCcw aria-hidden="true" className="size-3.5 transition-transform duration-500 group-hover:-rotate-180" />
+              </button>
+            )}
+            <button type="button" onClick={sair} className="botao-icone size-8 shrink-0 p-0" title={tc.sairTitulo} aria-label={tc.sairTitulo}>
+              <LogOut aria-hidden="true" className="size-3.5" />
+            </button>
+          </>
+        )}
+
+        <button type="button" onClick={onFechar} className="botao-icone ml-auto size-8 shrink-0 p-0" aria-label={tc.flutuante.fechar}>
           <X aria-hidden="true" className="size-4" />
         </button>
       </div>
@@ -266,55 +289,6 @@ export function AssistenteIA({ onFechar }: AssistenteIAProps): JSX.Element {
             exit={{ opacity: 0, y: -8, transition: { duration: 0.2 } }}
             className="flex min-h-0 flex-1 flex-col"
           >
-            {/* --- Barra do chat ---------------------------------------- */}
-            <div className="card-titulo flex-wrap gap-y-2">
-              <span className="relative flex size-2">
-                <span aria-hidden="true" className="absolute inset-0 animate-ping rounded-full bg-signal-fill opacity-60" />
-                <span aria-hidden="true" className="relative size-2 rounded-full bg-signal-fill" />
-              </span>
-              <span>
-                {nomeProvedor} · {conexao.origem === 'pkce' ? tc.login : 'BYOK'}
-              </span>
-
-              <div className="ml-auto flex flex-wrap items-center gap-2">
-                <SeletorModelo
-                  modelos={modelos.length > 0 ? modelos : [{ id: conexao.modelo, nome: conexao.modelo }]}
-                  valor={conexao.modelo}
-                  onChange={trocarModelo}
-                  carregando={carregandoModelos && modelos.length === 0}
-                  desabilitado={carregando}
-                />
-
-                <AnimatePresence>
-                  {mensagens.length > 0 && (
-                    <motion.button
-                      type="button"
-                      onClick={novaConversa}
-                      initial={{ opacity: 0, x: 8 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      exit={{ opacity: 0, x: 8 }}
-                      transition={{ duration: 0.35, ease: EASE_SCIENTATA }}
-                      className="group inline-flex items-center gap-1.5 px-2 py-1.5 hover:text-signal"
-                      title={tc.novaTitulo}
-                    >
-                      <RotateCcw aria-hidden="true" className="size-3 transition-transform duration-500 group-hover:-rotate-180" />
-                      <span className="sr-only @md:not-sr-only">{tc.nova}</span>
-                    </motion.button>
-                  )}
-                </AnimatePresence>
-
-                <button
-                  type="button"
-                  onClick={sair}
-                  className="group inline-flex items-center gap-1.5 px-2 py-1.5 hover:text-signal"
-                  title={tc.sairTitulo}
-                >
-                  <LogOut aria-hidden="true" className="size-3 transition-transform duration-300 group-hover:translate-x-0.5" />
-                  {tc.sair}
-                </button>
-              </div>
-            </div>
-
             {/* --- Histórico -------------------------------------------- */}
             <div
               ref={listaRef}
